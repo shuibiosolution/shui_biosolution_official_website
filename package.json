@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack serve",
-    "start:dev": "nodemon server.js",
+    "start": "node server.js",
     "build": "webpack --config webpack.config.js",
-    "build:dev": "webpack --config webpack.config.js -w"
+    "test": "npm run build && npm run start"
   },
   "dependencies": {
     "express": "~4.16.1",
