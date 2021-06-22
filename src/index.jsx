@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { DatePicker } from 'antd';
-import 'antd/dist/antd.css';
+import { Layout } from 'antd';
+import SHUIMenu from "./menu.jsx";
 
-ReactDOM.render(<DatePicker />, document.getElementById("root"));
+ReactDOM.render(<Layout className="layout">
+    <SHUIMenu />
+</Layout>, document.getElementById("root"));

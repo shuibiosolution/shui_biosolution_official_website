@@ -1,0 +1,27 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 6.25vw;
+}
+
+.menu-item-left {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #03658C;
+}
+
+.menu-item-right {
+    position: relative;
+    top: 50%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #03658C;
+}
+
+.menu-text {
+    vertical-align: middle;
+}
