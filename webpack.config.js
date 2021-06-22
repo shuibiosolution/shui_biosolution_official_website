@@ -7,11 +7,22 @@ module.exports = {
         water: __dirname + '/src/water.jsx',
     },
     module: {
-        rules: [{
-            test: /\.jsx$/,
-            exclude: ["/node_modules/", "/public/", "/routes/", "/src/", "/app.js", "/server.js"],
-            loader: "babel-loader",
-        }]
+        rules: [
+            {
+                test: /\.jsx$/,
+                // exclude: ["/node_modules/", "/public/", "/routes/", "/src/", "/app.js", "/server.js"],
+                loader: "babel-loader",
+            },
+            {
+                test: /\.css$/,
+                exclude: ["/public/stylesheets/"],
+                use: ['style-loader','css-loader']
+            },
+            {
+                test: /\.less$/,
+                use: ['style-loader','css-loader',"less-loader"]
+            },
+        ]
     },
     output: {
         filename: '[name].js',
