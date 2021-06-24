@@ -16,11 +16,14 @@ module.exports = {
             {
                 test: /\.css$/,
                 exclude: ["/public/stylesheets/"],
-                use: ['style-loader','css-loader']
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.less$/,
-                use: ['style-loader','css-loader',"less-loader"]
+                use: ['style-loader', 'css-loader', "less-loader"]
+            },
+            {   test: /\.(jpe?g|png|gif|svg)$/i, 
+                loader: "file-loader" 
             },
         ]
     },
