@@ -1,0 +1,17 @@
+.white-frame {
+    width: 100vw;
+    height: 25vh;
+    background-color: white;
+}
+
+.white-frame1-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.017em;
+    color: #13B5AB;
+    text-align: center;
+    vertical-align: middle;
+}
