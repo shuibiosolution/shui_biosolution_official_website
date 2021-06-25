@@ -6,6 +6,7 @@ import SHUIMenu from "./menu.jsx";
 import SHUICarousel from "./carousel.jsx";
 import SHUIWhiteFrame1 from "./white-frame1.jsx";
 import SHUICard1 from "./card1.jsx";
+import SHUIWhiteFrame2 from "./white-frame2.jsx";
 
 ReactDOM.render(<Layout className="layout">
     <SHUIMenu />
@@ -22,4 +23,5 @@ ReactDOM.render(<Layout className="layout">
             <SHUICard1 image="/card1-3.png"/>
         </Col>
     </Row>
+    <SHUIWhiteFrame2 />
 </Layout>, document.getElementById("root"));
