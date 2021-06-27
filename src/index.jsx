@@ -13,26 +13,26 @@ ReactDOM.render(<Layout className="layout">
     <SHUIMenu />
     <SHUICarousel />
     <SHUIWhiteFrame1 />
-    <Row gutter={0}>
+    <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={8}>
-            <SHUICard image="/card1.png"/>
+            <SHUICard image="/card1.png" />
         </Col>
         <Col className="gutter-row" span={8}>
-            <SHUICard image="/card2.png"/>
+            <SHUICard image="/card2.png" />
         </Col>
         <Col className="gutter-row" span={8}>
-            <SHUICard image="/card3.png"/>
+            <SHUICard image="/card3.png" />
         </Col>
     </Row>
     <SHUIWhiteFrame2 />
-    <Row gutter={0}>
+    <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={12}>
-            <SHUICard image="/card4.png"/>
+            <SHUICard image="/card4.png" />
         </Col>
         <Col className="gutter-row" span={12}>
-            <SHUICard image="/card5.png"/>
+            <SHUICard image="/card5.png" />
         </Col>
     </Row>
-    <SHUICard image="/card6.png"/>
-    <SHUICard image="/card7.png"/>
+    <SHUICard image="/card6.png" />
+    <SHUICard image="/card7.png" />
 </Layout>, document.getElementById("root"));
