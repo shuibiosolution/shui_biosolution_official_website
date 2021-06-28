@@ -5,20 +5,22 @@ import "/public/stylesheets/carousel.css";
 
 function SHUICarousel() {
     return (
-        <Carousel autoplay dotPosition="bottom" className="carousel">
+        <div className="carousel">
+        <Carousel autoplay dotPosition="bottom">
             <div class="carousel-container">
                 <img src="/title1.png" className="carousel-image"/>
-                <div class="carousel-text"><img src="/title4.png" /></div>
-            </div>
-            <div>
+                <div><img src="/title4.png" className="carousel-text" /></div>
+            </div >
+            <div class="carousel-container">
                 <img src="/title2.png" className="carousel-image"/>
-                <div class="carousel-text"><img src="/title4.png" /></div>
+                <div><img src="/title4.png" className="carousel-text" /></div>
             </div>
-            <div>
+            <div class="carousel-container">
                 <img src="/title3.png" className="carousel-image"/>
-                <div class="carousel-text"><img src="/title4.png" /></div>
+                <div><img src="/title4.png" className="carousel-text" /></div>
             </div>
         </Carousel>
+        </div>
     );
 }
 

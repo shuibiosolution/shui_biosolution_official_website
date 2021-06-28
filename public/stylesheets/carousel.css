@@ -1,5 +1,5 @@
 .carousel {
-    height: 88.9vh;
+    height: 50vw;
 }
 
 .carousel-container {
@@ -11,7 +11,7 @@
 
 .carousel-image {
     width: 100vw;
-    height: 88.9vh;
+    height: 50vw;
     z-index: 10;
 }
 
@@ -21,4 +21,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 20;
+    height: 50%;
+    width: 50%;
 }

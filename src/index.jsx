@@ -12,7 +12,7 @@ import SHUIWhiteFrame2 from "./white-frame2.jsx";
 ReactDOM.render(<Layout className="layout">
     <SHUIMenu />
     <SHUICarousel />
-    <SHUIWhiteFrame1 />
+    <SHUIWhiteFrame/>
     <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={8}>
             <SHUICard image="/card1.png" />
@@ -24,7 +24,7 @@ ReactDOM.render(<Layout className="layout">
             <SHUICard image="/card3.png" />
         </Col>
     </Row>
-    <SHUIWhiteFrame2 />
+    <SHUIWhiteFrame/>
     <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={12}>
             <SHUICard image="/card4.png" />
