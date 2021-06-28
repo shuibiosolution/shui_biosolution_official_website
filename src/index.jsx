@@ -5,14 +5,15 @@ import "/public/stylesheets/index.css";
 import { Layout, Row, Col, Divider } from 'antd';
 import SHUIMenu from "./menu.jsx";
 import SHUICarousel from "./carousel.jsx";
-import SHUIWhiteFrame1 from "./white-frame1.jsx";
+import SHUIWhiteFrame from "./white-frame.jsx";
 import SHUICard from "./card.jsx";
-import SHUIWhiteFrame2 from "./white-frame2.jsx";
 
 ReactDOM.render(<Layout className="layout">
     <SHUIMenu />
     <SHUICarousel />
-    <SHUIWhiteFrame/>
+    <SHUIWhiteFrame>
+        <h1 className="white-frame1-text">创造一个零污染的世界</h1>
+    </SHUIWhiteFrame>
     <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={8}>
             <SHUICard image="/card1.png" />
@@ -24,7 +25,11 @@ ReactDOM.render(<Layout className="layout">
             <SHUICard image="/card3.png" />
         </Col>
     </Row>
-    <SHUIWhiteFrame/>
+    <SHUIWhiteFrame>
+        <h1 className="white-frame2-text1">我们的愿景</h1>
+        <hr className="white-frame2-hr" />
+        <h1 className="white-frame2-text2">保护环境和人类健康</h1>
+    </SHUIWhiteFrame>
     <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={12}>
             <SHUICard image="/card4.png" />
