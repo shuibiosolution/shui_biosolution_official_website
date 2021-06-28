@@ -20,10 +20,30 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                use: ['style-loader', 'css-loader', "less-loader"]
+                use: [{
+                    loader: 'style-loader'
+                },
+                {
+                    loader: "css-loader"
+                },
+                {
+                    loader: "less-loader",
+                    options: {
+                        lessOptions: {
+                            modifyVars: {
+                                "layout-header-background": "#FFFFFF",
+                                "layout-header-height": "64px",
+                                "layout-header-padding": "0 0px",
+                                "layout-footer-padding": "24px 50px",
+                                "primary-color": "red"
+                            }
+                        }
+                    }
+                }]
             },
-            {   test: /\.(jpe?g|png|gif|svg)$/i, 
-                loader: "file-loader" 
+            {
+                test: /\.(jpe?g|png|gif|svg)$/i,
+                loader: "file-loader"
             },
         ]
     },
