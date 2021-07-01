@@ -6,7 +6,7 @@ import "/public/stylesheets/card.css"
 function SHUICard(props) {
 
     return(
-        <div className="card">
+        <div className="card" style={props.style}>
             <img src={props.image} className="card-image"/>
             {props.children}
         </div>

@@ -24,13 +24,16 @@ ReactDOM.render(<Layout className="layout">
         </SHUIWhiteFrame>
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={8}>
-                <SHUICard image="/card1.png" />
+                <SHUICard image="/card1.png">
+                </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
-                <SHUICard image="/card2.png" />
+                <SHUICard image="/card2.png">
+                </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
-                <SHUICard image="/card3.png" />
+                <SHUICard image="/card3.png">
+                </SHUICard>
             </Col>
         </Row>
         <SHUIWhiteFrame>
@@ -40,10 +43,12 @@ ReactDOM.render(<Layout className="layout">
         </SHUIWhiteFrame>
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={12}>
-                <SHUICard image="/card4.png" />
+                <SHUICard image="/card4.png">
+                </SHUICard>
             </Col>
             <Col className="gutter-row" span={12}>
-                <SHUICard image="/card5.png" />
+                <SHUICard image="/card5.png">
+                </SHUICard>
             </Col>
         </Row>
         <SHUICard image="/card6.png" />
