@@ -19,18 +19,32 @@ ReactDOM.render(<Layout className="layout">
     <Content>
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={12}>
-                <SHUICard image="/card1.png" />
+                <SHUICard image="/card8.png">
+                </SHUICard>
             </Col>
             <Col className="gutter-row" span={12}>
-                <SHUIColorCard image="/card2.png" />
+                <SHUIColorCard style={{backgroundColor: "#112137"}}>
+                </SHUIColorCard>
             </Col>
         </Row>
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={12}>
-                <SHUIColorCard image="/card1.png" />
+                <SHUIColorCard style={{backgroundColor: "#112137"}}>
+                </SHUIColorCard>
             </Col>
             <Col className="gutter-row" span={12}>
-                <SHUICard image="/card2.png" />
+                <SHUICard image="/card9.png">
+                </SHUICard>
+            </Col>
+        </Row>
+        <Row gutter={[0, 0]}>
+            <Col className="gutter-row" span={12}>
+                <SHUICard image="/card10.png">
+                </SHUICard>
+            </Col>
+            <Col className="gutter-row" span={12}>
+                <SHUIColorCard style={{backgroundColor: "#112137"}}>
+                </SHUIColorCard>
             </Col>
         </Row>
     </Content>
