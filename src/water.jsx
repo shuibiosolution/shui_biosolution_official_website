@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "/public/stylesheets/water.css";
-import { Layout, Row, Col, Divider } from 'antd';
+import { Layout, Row, Col} from 'antd';
 import SHUIMenu from "./menu.jsx";
 import SHUICard from "./card.jsx";
 import SHUIColorCard from "./colorCard.jsx";
