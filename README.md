@@ -1,7 +1,6 @@
-# Web Developer: [Li Fengyu](https://github.com/fengyuli2002)
-
-# Web Designer: [Liu Yueming](https://github.com/liuyuemingm)
-
+#### Developer: [Li Fengyu](https://github.com/fengyuli2002)
+#### Designer: [Liu Yueming](https://github.com/liuyuemingm)
+---
 # Instructions for Collaboration and Future Maintenance
 
 1. Fork this repository, or directly pull from the repository if you're a collaboartor.
