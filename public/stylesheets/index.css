@@ -12,6 +12,10 @@ html, body {
   width: 100%;
 }
 
+.header {
+  background-color: white !important
+}
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -52,4 +56,8 @@ a {
   /* identical to box height */
   letter-spacing: -0.017em;
   color: #017F8E;
+}
+
+#test {
+  position: absolute;
 }

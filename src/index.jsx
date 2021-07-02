@@ -12,8 +12,8 @@ const { Header, Content, Footer } = Layout;
 
 ReactDOM.render(<Layout className="layout">
 
-    <Header>
-        <div className="logo" />
+    <Header className="header">
+        {/* <div className="logo" /> */}
         <SHUIMenu />
     </Header>
 
@@ -25,10 +25,12 @@ ReactDOM.render(<Layout className="layout">
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={8}>
                 <SHUICard image="/card1.png">
+                    <div id="test"><h1>test</h1></div>
                 </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
                 <SHUICard image="/card2.png">
+                    
                 </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
