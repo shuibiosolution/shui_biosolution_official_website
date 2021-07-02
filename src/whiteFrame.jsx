@@ -1,5 +1,5 @@
 import React from "react";
-import "/public/stylesheets/white-frame.css";
+import "/public/stylesheets/whiteFrame.css";
 
 function SHUIWhiteFrame(props) {
     return (

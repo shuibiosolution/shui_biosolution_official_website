@@ -5,7 +5,7 @@ import "/public/stylesheets/index.css";
 import { Layout, Row, Col, Divider } from 'antd';
 import SHUIMenu from "./menu.jsx";
 import SHUICarousel from "./carousel.jsx";
-import SHUIWhiteFrame from "./white-frame.jsx";
+import SHUIWhiteFrame from "./whiteFrame.jsx";
 import SHUICard from "./card.jsx";
 
 const { Header, Content, Footer } = Layout;
@@ -25,7 +25,7 @@ ReactDOM.render(<Layout className="layout">
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={8}>
                 <SHUICard image="/card1.png">
-                    <div id="test"><h1>test</h1></div>
+                    {/* <div id="test"><h1>test</h1></div> */}
                 </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
