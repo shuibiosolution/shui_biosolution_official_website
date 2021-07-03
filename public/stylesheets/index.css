@@ -59,6 +59,47 @@ a {
   color: #017F8E;
 }
 
-#test {
+#card1 {
   position: absolute;
+  left: 8%;
+  top: 73%;
+  width: 80%;
+  height: 40%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+  line-height: 14px;
+}
+
+#card2 {
+  position: absolute;
+  left: 8%;
+  top: 48%;
+  width: 80%;
+  height: 40%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+  line-height: 14px;
+}
+
+#card3 {
+  position: absolute;
+  left: 8%;
+  top: 58%;
+  width: 80%;
+  height: 40%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+  line-height: 14px;
 }

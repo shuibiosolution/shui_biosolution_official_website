@@ -25,23 +25,40 @@ ReactDOM.render(<Layout className="layout">
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={8}>
                 <SHUICard image="/card1.png">
-                    {/* <div id="test"><h1>test</h1></div> */}
+                    <div id="card1">
+                        <p>我们相信生物技术是</p>
+                        <p>解决世界环保问题的钥匙</p>
+                        <p>大自然创造万物的同时</p>
+                        <p>万物也孕育着治愈自然的能力</p>
+                    </div>
                 </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
                 <SHUICard image="/card2.png">
-                    
+                    <div id="card2">
+                        <p>我们是一家成立于2020年的</p>
+                        <p>合成生物学科技企业</p>
+                        <p>我们利用生物合成与计算科学</p>
+                        <p>开发解决环境污染的新技术</p>
+                    </div>
                 </SHUICard>
             </Col>
             <Col className="gutter-row" span={8}>
                 <SHUICard image="/card3.png">
+                    <div id="card3">
+                        <p>前沿的合成材料</p>
+                        <p>与创新性的生物工程菌</p>
+                        <p>系统结合</p>
+                        <p>将为环境治理提供一个</p>
+                        <p>革命性的新维度</p>
+                    </div>
                 </SHUICard>
             </Col>
         </Row>
         <SHUIWhiteFrame>
             <h1 className="white-frame2-text1">我们的愿景</h1>
             <hr className="white-frame2-hr" />
-            <h1 className="white-frame2-text2">保护环境和人类健康</h1>
+            <h2 className="white-frame2-text2">保护环境和人类健康</h2>
         </SHUIWhiteFrame>
         <Row gutter={[0, 0]}>
             <Col className="gutter-row" span={12}>
