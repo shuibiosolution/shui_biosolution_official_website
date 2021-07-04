@@ -1,0 +1,93 @@
+/* #card8 {
+position: absolute;
+top: 100%;
+padding: 40% 10%;
+    
+font-style: normal;
+font-size: 2.5vw;
+line-height: 140%;
+font-family: 'Long Cang', cursive;
+  
+color: #FFFFFF;
+} */
+
+.card8-item{
+  font-size: 1.7vw;
+  font-family: 'Long Cang', cursive;
+  display: block;
+  color: #FFFFFF;
+}
+
+#logo{
+max-width: 60%;
+padding: 20% 5% 0;
+}
+
+.card8-item em{
+  font-style: normal;
+  text-shadow: 0 0 5px white;
+  font-size: 3vw;
+  padding: 0 11% 0;
+}
+
+hr {
+  width: 80%;
+  margin-left: 10%;
+  background-color: white;
+  height: 3px;
+}
+
+ul{
+  padding: 0 0 0 3vw;
+}
+
+li {
+  display: inline;
+  box-sizing: border-box;
+  width: 14vw;
+  padding: 2vw;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+li img {
+  max-width: 70%;
+  margin: 5%;
+}
+
+#card9-text {
+position: absolute;
+padding: 30% 10%;
+    
+font-style: normal;
+font-weight: 20;
+font-size: 1.7vw;
+line-height: 140%;
+font-family: 'Long Cang', cursive;
+  
+color: #FFFFFF;
+}
+
+#card10-text {
+position: absolute;
+padding: 20% 8%;
+  
+font-style: normal;
+font-weight: 20;
+font-size: 1.7vw;
+line-height: 140%;
+font-family: 'Long Cang', cursive;
+
+color: #FFFFFF;
+}
+
+#card10-text em {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2vw;
+  font-family: 'Long Cang', cursive;
+  
+  color: #00CDB4;
+  }
+
