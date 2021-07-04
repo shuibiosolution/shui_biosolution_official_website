@@ -25,8 +25,44 @@ a {
   color: #00B7FF;
 }
 
+.big-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+}
+
+.small-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+}
+
+.medium-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+}
+
+.short-hr {
+  width: 25%;
+  background-color: white;
+  height: 3px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
 .white-frame1-text {
-  font-family: 'Long Cang', cursive;;
+  font-family: 'Long Cang', cursive;
+  ;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -39,7 +75,7 @@ a {
 }
 
 .white-frame2-text1 {
-  font-family: 'Long Cang', cursive;;
+  font-family: 'Long Cang', cursive;
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -59,7 +95,8 @@ a {
 }
 
 .white-frame2-text2 {
-  font-family: 'Long Cang', cursive;;
+  font-family: 'Long Cang', cursive;
+  ;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -113,5 +150,48 @@ a {
   font-size: 20px;
   letter-spacing: -0.017em;
   color: #FFFFFF;
+  line-height: 14px;
+}
+
+#em1, #em2, #em3 {
+  font-weight: bold;
+}
+
+#em1 {
+  color: #40E8E8;
+}
+
+#em2 {
+  color: #02C299;
+}
+
+#em3 {
+  color: #2EB3E8;
+}
+
+#card4 {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  width: 80%;
+  height: 40%;
+  line-height: 14px;
+}
+
+#card5 {
+  position: absolute;
+  left: 28%;
+  top: 12%;
+  width: 80%;
+  height: 40%;
+  line-height: 14px;
+}
+
+#card6 {
+  position: absolute;
+  left: 8%;
+  top: 12%;
+  width: 70%;
+  height: 70%;
   line-height: 14px;
 }

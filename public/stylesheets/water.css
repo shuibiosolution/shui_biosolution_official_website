@@ -11,19 +11,19 @@ font-family: 'Long Cang', cursive;
 color: #FFFFFF;
 } */
 
-.card8-item{
+.card8-item {
   font-size: 1.7vw;
   font-family: 'Long Cang', cursive;
   display: block;
   color: #FFFFFF;
 }
 
-#logo{
-max-width: 60%;
-padding: 20% 5% 0;
+#logo {
+  max-width: 60%;
+  padding: 20% 5% 0;
 }
 
-.card8-item em{
+.card8-item em {
   font-style: normal;
   text-shadow: 0 0 5px white;
   font-size: 3vw;
@@ -37,7 +37,7 @@ hr {
   height: 3px;
 }
 
-ul{
+ul {
   padding: 0 0 0 3vw;
 }
 
@@ -57,29 +57,25 @@ li img {
 }
 
 #card9-text {
-position: absolute;
-padding: 30% 10%;
-    
-font-style: normal;
-font-weight: 20;
-font-size: 1.7vw;
-line-height: 140%;
-font-family: 'Long Cang', cursive;
-  
-color: #FFFFFF;
+  position: absolute;
+  padding: 30% 10%;
+  font-style: normal;
+  font-weight: 20;
+  font-size: 1.7vw;
+  line-height: 140%;
+  font-family: 'Long Cang', cursive;
+  color: #FFFFFF;
 }
 
 #card10-text {
-position: absolute;
-padding: 20% 8%;
-  
-font-style: normal;
-font-weight: 20;
-font-size: 1.7vw;
-line-height: 140%;
-font-family: 'Long Cang', cursive;
-
-color: #FFFFFF;
+  position: absolute;
+  padding: 20% 8%;
+  font-style: normal;
+  font-weight: 20;
+  font-size: 1.7vw;
+  line-height: 140%;
+  font-family: 'Long Cang', cursive;
+  color: #FFFFFF;
 }
 
 #card10-text em {
@@ -87,7 +83,5 @@ color: #FFFFFF;
   font-weight: 100;
   font-size: 2vw;
   font-family: 'Long Cang', cursive;
-  
   color: #00CDB4;
-  }
-
+}
