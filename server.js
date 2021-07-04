@@ -13,6 +13,14 @@ app.get('/water', (req, res) => {
   res.sendFile(__dirname + "/build/water.min.html");
 })
 
+app.get('/earth', (req, res) => {
+  res.sendFile(__dirname + "/build/earth.min.html");
+})
+
+app.get('/about', (req, res) => {
+  res.sendFile(__dirname + "/build/about.min.html");
+})
+
 app.listen(port, () => {
   console.log(`Web app listening at http://localhost:${port}`)
 })

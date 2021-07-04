@@ -16,7 +16,7 @@ const { Header, Content, Footer } = Layout;
 ReactDOM.render(<Layout className="layout">
 
     <Header>
-        <div className="logo" />
+        {/* <div className="logo" /> */}
         <SHUIMenu />
     </Header>
 

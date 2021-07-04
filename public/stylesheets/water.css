@@ -1,3 +1,15 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+Header {
+  background-color: white !important
+}
+
 /* #card8 {
 position: absolute;
 top: 100%;

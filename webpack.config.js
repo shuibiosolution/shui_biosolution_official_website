@@ -5,6 +5,8 @@ module.exports = {
     entry: {
         index: __dirname + '/src/index.jsx',
         water: __dirname + '/src/water.jsx',
+        earth: __dirname + '/src/earth.jsx',
+        about: __dirname + '/src/about.jsx',
     },
     module: {
         rules: [
@@ -31,11 +33,6 @@ module.exports = {
                     options: {
                         lessOptions: {
                             modifyVars: {
-                                "layout-header-background": "#FFFFFF",
-                                "layout-header-height": "64px",
-                                "layout-header-padding": "0 0px",
-                                "layout-footer-padding": "24px 50px",
-                                "primary-color": "red"
                             }
                         }
                     }
@@ -63,6 +60,18 @@ module.exports = {
             chunks: ["water"],
             filename: "water.min.html",
             template: __dirname + "/views/water.html"
+        }),
+        new HTMLWebpackPlugin({
+            inject: true,
+            chunks: ["earth"],
+            filename: "earth.min.html",
+            template: __dirname + "/views/earth.html"
+        }),
+        new HTMLWebpackPlugin({
+            inject: true,
+            chunks: ["about"],
+            filename: "about.min.html",
+            template: __dirname + "/views/about.html"
         })
     ]
 };
