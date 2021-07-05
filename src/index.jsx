@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "/public/stylesheets/index.css";
-import { Layout, Row, Col, Divider } from 'antd';
+import { Layout, Row, Col, Collapse } from 'antd';
 import SHUIMenu from "./menu.jsx";
 import SHUICarousel from "./carousel.jsx";
 import SHUIWhiteFrame from "./whiteFrame.jsx";
@@ -12,6 +12,8 @@ import SHUICard from "./card.jsx";
 </style>
 
 const { Header, Content, Footer } = Layout;
+
+const { Panel } = Collapse;
 
 ReactDOM.render(<Layout className="layout">
 
@@ -87,16 +89,31 @@ ReactDOM.render(<Layout className="layout">
         </Row>
         <SHUICard image="/card6.png">
             <div id="card6">
-                <p className="big-text">技术</p> <br/> <br/>
+                <p className="big-text">技术</p> <br /> <br />
                 <p className="medium-text">合成生物学</p>
                 <p className="small-text">利用工程学的手段重新构建微生物去赋予其全新的功能。</p>
-                <p className="small-text">计算机技术与生命科学技术的结合将加速工业化微生物的开发与创新。</p> <br/> <br/>
+                <p className="small-text">计算机技术与生命科学技术的结合将加速工业化微生物的开发与创新。</p> <br /> <br />
                 <p className="medium-text">定向进化</p>
                 <p className="small-text">模拟自然选择的过程去筛选最优的功能蛋白质。</p>
                 <p className="small-text">创意与理性的设计结合将不断优化我们的产品，达成最理想化的效果。</p>
             </div>
         </SHUICard>
-        <SHUICard image="/card7.png" />
+        <SHUICard image="/card7.png">
+            <div id="card7">
+                <p className="big-text">常见问题</p> <br />
+                <Collapse defaultActiveKey={['1']} ghost accordion="true">
+                    <Panel header="This is panel header 1" key="1">
+                        <p className="small-text">Placeholder</p>
+                    </Panel>
+                    <Panel header="This is panel header 2" key="2">
+                        <p className="small-text">Placeholder</p>
+                    </Panel>
+                    <Panel header="This is panel header 3" key="3">
+                        <p className="small-text">Placeholder</p>
+                    </Panel>
+                </Collapse>
+            </div>
+        </SHUICard>
     </Content>
 
 </Layout>, document.getElementById("root"));
