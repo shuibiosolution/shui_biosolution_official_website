@@ -10,12 +10,12 @@ library.add(faLinkedin);
 
 function SHUIMember(props) {
     return (
-        <Row gutter={[0, 0]}>
+        <Row>
             <Col className="gutter-row" span={5}>
                 <img src={props.image} />
             </Col>
             <Col className="gutter-row" span={19}>
-                <p className="medium-text">{props.name_title}   <a href={props.linkedin}><FontAwesomeIcon icon={faLinkedin} color="white" /></a></p>
+                <p className="medium-text">{props.name_title}   <a href={props.linkedin} target="_blank"><FontAwesomeIcon icon={faLinkedin} color="white" /></a></p>
                 <p className="small-text">{props.bio}</p>
             </Col>
         </Row>

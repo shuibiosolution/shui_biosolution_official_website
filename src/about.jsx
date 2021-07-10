@@ -7,6 +7,7 @@ import SHUIMenu from "./menu.jsx";
 import SHUICard from "./card.jsx";
 import SHUIColorCard from "./colorCard.jsx";
 import SHUIMember from "./member.jsx";
+import SHUISponsor from "./sponsor.jsx";
 
 const { Header, Content, Footer } = Layout;
 
@@ -90,23 +91,31 @@ ReactDOM.render(<Layout className="layout">
             <SHUIMember name_title={members[2].name_title} image={members[2].image} bio={members[2].bio} linkedin={members[2].linkedin} />
         </SHUIColorCard>
         <SHUIColorCard style={{ backgroundColor: "#4285F4" }}>
-            <div id="card1">
+            <div id="card2">
                 <p className="big-text">Placeholder</p>
             </div>
             <Row gutter={[0, 0]}>
                 <Col className="gutter-row" span={12}>
-                    1
+                    <SHUISponsor
+                        name={sponsors[0].name} image={sponsors[0].image} intro1={sponsors[0].intro1} intro2={sponsors[0].intro2} linkedin={sponsors[0].linkedin} website={sponsors[0].website}
+                    />
                 </Col>
                 <Col className="gutter-row" span={12}>
-                    2
+                <SHUISponsor
+                        name={sponsors[1].name} image={sponsors[1].image} intro1={sponsors[1].intro1} intro2={sponsors[1].intro2} linkedin={sponsors[1].linkedin} website={sponsors[1].website}
+                    />
                 </Col>
             </Row>
             <Row gutter={[0, 0]}>
                 <Col className="gutter-row" span={12}>
-                    3
+                <SHUISponsor
+                        name={sponsors[2].name} image={sponsors[2].image} intro1={sponsors[2].intro1} intro2={sponsors[2].intro2} linkedin={sponsors[2].linkedin} website={sponsors[2].website}
+                    />
                 </Col>
                 <Col className="gutter-row" span={12}>
-                    4
+                <SHUISponsor
+                        name={sponsors[3].name} image={sponsors[3].image} intro1={sponsors[3].intro1} intro2={sponsors[3].intro2} linkedin={sponsors[3].linkedin} website={sponsors[3].website}
+                    />
                 </Col>
             </Row>
         </SHUIColorCard>
