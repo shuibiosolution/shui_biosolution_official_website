@@ -1,13 +1,48 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 Header {
-    background-color: white !important
-  }
+  background-color: white !important
+}
 
 .title-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 20;
-    height: 50%;
-    width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  height: 50%;
+  width: 50%;
+}
+
+.big-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+}
+
+.small-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: -0.017em;
+  color: #FFFFFF;
+}
+
+.medium-text, .ant-collapse-header {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 21px !important;
+  letter-spacing: -0.017em !important;
+  color: #FFFFFF !important;
 }
