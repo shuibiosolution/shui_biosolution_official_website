@@ -18,7 +18,7 @@ ReactDOM.render(<Layout className="layout">
     </Header>
 
     <Content>
-        <SHUICard image="/title5.png">
+        <SHUICard image="/title6.png">
             <div><img src="/title4.png" className="title-text" /></div>
         </SHUICard>
         <SHUIColorCard style={{ backgroundColor: "#E5E5E5" }}>
