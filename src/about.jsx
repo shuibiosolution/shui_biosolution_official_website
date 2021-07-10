@@ -36,22 +36,36 @@ const members = [
 
 const sponsors = [
     {
-        name: "徐明阳 - CEO",
+        name: "Placeholder",
         image: "sponsor1.png",
         intro1: "placeholder",
-        intro2: "https://www.google.com"
+        intro2: "placeholder",
+        website: "",
+        linkedin: ""
     },
     {
-        name: "高宇轩 - CFO",
+        name: "Placeholder",
         image: "sponsor2.png",
         intro1: "placeholder",
-        intro2: "https://www.google.com"
+        intro2: "placeholder",
+        website: "",
+        linkedin: ""
     },
     {
-        name: "倪赫远 - CTO & Director of R&D",
-        image: "member3.png",
+        name: "Placeholder",
+        image: "sponsor3.png",
         intro1: "placeholder",
-        intro2: "https://www.google.com"
+        intro2: "placeholder",
+        website: "",
+        linkedin: ""
+    },
+    {
+        name: "Placeholder",
+        image: "sponsor4.png",
+        intro1: "placeholder",
+        intro2: "placeholder",
+        website: "",
+        linkedin: ""
     }
 ];
 
