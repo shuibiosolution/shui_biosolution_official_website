@@ -4,8 +4,85 @@ html, body {
     width: 100%;
     padding: 0px;
     overflow-x: hidden;
-}
-
-Header {
+  }
+  
+  Header {
     background-color: white !important
-}
+  }
+  
+  .card11-item {
+    font-size: 1.2vw;
+    font-family: 'Long Cang', cursive;
+    display: block;
+    color: #FFFFFF;
+  }
+
+  #card11-text {
+      padding: 0 10% 0;
+  }
+  
+  #logo {
+    max-width: 60%;
+    padding: 20% 5% 0;
+  }
+  
+  .card11-item em {
+    font-style: normal;
+    text-shadow: 0 0 5px white;
+    font-size: 3vw;
+    padding: 0 11% 0;
+  }
+  
+  hr {
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    height: 3px;
+  }
+  
+  ul {
+    padding: 0 0 0 3vw;
+  }
+  
+  li {
+    width: 22vw;
+    padding: 2vw 2vw 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2vw;
+  }
+  
+  li img {
+    max-width: 40%;
+    margin: 5%;
+  }
+  
+  #card12-text {
+    position: absolute;
+    padding: 30% 10%;
+    font-style: normal;
+    font-weight: 20;
+    font-size: 1.7vw;
+    line-height: 140%;
+    font-family: 'Long Cang', cursive;
+    color: #FFFFFF;
+  }
+  
+  #card13-text {
+    position: absolute;
+    padding: 20% 8%;
+    font-style: normal;
+    font-weight: 20;
+    font-size: 1.7vw;
+    line-height: 140%;
+    font-family: 'Long Cang', cursive;
+    color: #FFFFFF;
+  }
+  
+  #card13-text em {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vw;
+    font-family: 'Long Cang', cursive;
+    color: #ffd000;
+  }
