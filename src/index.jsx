@@ -7,6 +7,8 @@ import SHUIMenu from "./menu.jsx";
 import SHUICarousel from "./carousel.jsx";
 import SHUIWhiteFrame from "./whiteFrame.jsx";
 import SHUICard from "./card.jsx";
+import SHUIContact from "./contact.jsx";
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 </style>
@@ -137,6 +139,7 @@ ReactDOM.render(<Layout className="layout">
                 </Collapse>
             </div>
         </SHUICard>
+        <SHUIContact />
     </Content>
 
 </Layout>, document.getElementById("root"));

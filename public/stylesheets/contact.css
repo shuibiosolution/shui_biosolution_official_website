@@ -1,0 +1,27 @@
+.big-text-contact {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: -0.017em;
+}
+
+.small-text-contact {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: -0.017em;
+}
+
+.medium-text-contact {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    letter-spacing: -0.017em;
+}
+
+.blue-color {
+    color: #03658C;
+}
