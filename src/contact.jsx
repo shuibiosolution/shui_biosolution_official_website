@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import "/public/stylesheets/contact.css"
+import axios from "axios";
 
 class SHUIContact extends Component {
 
@@ -16,22 +17,29 @@ class SHUIContact extends Component {
     }
 
     changeHandler = (e) => {
-        this.setState({[e.target.name] : e.target.value});
+        this.setState({ [e.target.name]: e.target.value });
     }
 
-    handleSubmit = (e) => {
+    submitHandler = (e) => {
         e.preventDefault();
         console.log(this.state);
+        axios.post("http://localhost:3000/contact", this.state)
+            .then(response => {
+                console.log(response)
+            })
+            .catch(error => {
+                console.log(error)
+            })
     }
 
     render() {
 
-        const {name, email, subject, message} = this.state;
+        const { name, email, subject, message } = this.state;
 
         return (
             <Row>
                 <Col className="gutter-row" span={12}>
-                    <form onSubmit={this.handleSubmit}>
+                    <form onSubmit={this.submitHandler}>
                         <input type="text" name="name" value={name} onChange={this.changeHandler} />
                         <input type="text" name="email" value={email} onChange={this.changeHandler} /><br />
                         <input type="text" name="subject" value={subject} onChange={this.changeHandler} /><br />
