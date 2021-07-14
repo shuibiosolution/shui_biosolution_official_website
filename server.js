@@ -1,3 +1,4 @@
+const { faLessThanEqual } = require('@fortawesome/free-solid-svg-icons');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -51,24 +52,35 @@ app.get('/about', (req, res) => {
     res.sendFile(__dirname + "/build/about.min.html");
 })
 
-// const now = new Date();
-// let postBody = [];
-
 app.post("/contact", (req, res) => {
-    // for (const item in req.body) {
-    //     postBody.push(req.body[item]);
-    // }
-    // var date = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
-    // var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
-    // postBody.push(date + " " + time)
     console.log(req.body);
-    Message.create({
-        name: req.body.name,
-        email: req.body.email,
-        subject: req.body.subject,
-        message: req.body.message
-    });
+    let status = true;
+    if (!messageValidation(req.body)) {
+        console.log("Input data is illegal.");
+        status = false;
+    }
+    else {
+        Message.create({
+            name: req.body.name,
+            email: req.body.email,
+            subject: req.body.subject,
+            message: req.body.message
+        }, (error) => {
+            if (error) {
+                status = false;
+            }
+        });
+    }
 })
+
+function messageValidation(message) {
+    for (item in message) {
+        if (message[item] === '') {
+            return false;
+        }
+    }
+    return true;
+}
 
 app.listen(port, () => {
     console.log(`Web app listening at http://localhost:${port}`)
