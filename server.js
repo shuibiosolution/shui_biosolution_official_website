@@ -25,17 +25,14 @@ app.get('/about', (req, res) => {
   res.sendFile(__dirname + "/build/about.min.html");
 })
 
+let postBody = [];
+
 app.post("/contact", (req, res) => {
-  console.log("Post received");
-  console.log(res.body);
-  // user.create(req.body, (error, data) => {
-  //   if (error) {
-  //     return next(error)
-  //   } else {
-  //     console.log(data)
-  //     res.json(data)
-  //   }
-  // })
+  console.log("Post:" + req.body);
+  for (const item in req.body) {
+    postBody.push(req.body[item]);
+  }
+  console.log(postBody)
 })
 
 app.listen(port, () => {

@@ -25,10 +25,11 @@ class SHUIContact extends Component {
         console.log(this.state);
         axios.post("http://localhost:3000/contact", this.state)
             .then(response => {
+                console.log("Sent")
                 console.log(response)
             })
             .catch(error => {
-                console.log(error)
+                console.log("Error")
             })
     }
 
