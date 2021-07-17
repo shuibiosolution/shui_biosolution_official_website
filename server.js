@@ -3,9 +3,8 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
-const uri = process.env.MONGO_URI || 'mongodb://localhost/test';
 
-mongoose.connect("mongodb://localhost:27017/shuibiosolution", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://shuibiosolution:shuibiosolution@cluster0.b04va.mongodb.net/messageDB", { useNewUrlParser: true });
 
 const messageSchema = new mongoose.Schema({
     name: {
@@ -52,9 +51,10 @@ app.get('/about', (req, res) => {
     res.sendFile(__dirname + "/build/about.min.html");
 })
 
+let status = false;
+
 app.post("/contact", (req, res) => {
     console.log(req.body);
-    let status = true;
     if (!messageValidation(req.body)) {
         console.log("Input data is illegal.");
         status = false;
@@ -81,6 +81,10 @@ function messageValidation(message) {
     }
     return true;
 }
+
+// app.get('/express_backend', (req, res) => { //Line 9
+//     res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' }); //Line 10
+//   });
 
 app.listen(port, () => {
     console.log(`Web app listening at http://localhost:${port}`)

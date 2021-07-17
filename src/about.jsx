@@ -101,19 +101,19 @@ ReactDOM.render(<Layout className="layout">
                     />
                 </Col>
                 <Col className="gutter-row" span={12}>
-                <SHUISponsor
+                    <SHUISponsor
                         name={sponsors[1].name} image={sponsors[1].image} intro1={sponsors[1].intro1} intro2={sponsors[1].intro2} linkedin={sponsors[1].linkedin} website={sponsors[1].website}
                     />
                 </Col>
             </Row>
             <Row gutter={[0, 0]}>
                 <Col className="gutter-row" span={12}>
-                <SHUISponsor
+                    <SHUISponsor
                         name={sponsors[2].name} image={sponsors[2].image} intro1={sponsors[2].intro1} intro2={sponsors[2].intro2} linkedin={sponsors[2].linkedin} website={sponsors[2].website}
                     />
                 </Col>
                 <Col className="gutter-row" span={12}>
-                <SHUISponsor
+                    <SHUISponsor
                         name={sponsors[3].name} image={sponsors[3].image} intro1={sponsors[3].intro1} intro2={sponsors[3].intro2} linkedin={sponsors[3].linkedin} website={sponsors[3].website}
                     />
                 </Col>
