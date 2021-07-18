@@ -30,7 +30,7 @@ function SHUIContact() {
             <Col className="gutter-row" span={12}>
                 <form onSubmit={submitHandler}>
                     <input value={name} type="text" name="name" onChange={changeHandler} />
-                    <input value={email} type="text" name="email" onChange={changeHandler} /><br />
+                    <input value={email} type="email" name="email" onChange={changeHandler} /><br />
                     <input value={subject} type="text" name="subject" onChange={changeHandler} /><br />
                     <input value={message} type="text" name="message" onChange={changeHandler} />
                     <input type="submit" />
@@ -78,7 +78,7 @@ function SHUIContact() {
         // }
     }
 
-    function submitHandler(e) {
+    async function submitHandler(e) {
         e.preventDefault();
         console.log(name, email, subject, message);
         const postMessage = {
@@ -87,7 +87,7 @@ function SHUIContact() {
             subject: subject,
             message: message
         }
-        axios.post("http://localhost:3000/contact", postMessage)
+        await axios.post("http://localhost:3000/contact", postMessage)
             .then(response => {
                 console.log(response.data);
                 changeStatusHandler(response.data);

@@ -1,4 +1,3 @@
-const { faLessThanEqual } = require('@fortawesome/free-solid-svg-icons');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -81,10 +80,6 @@ function messageValidation(message) {
     }
     return true;
 }
-
-// app.get('/express_backend', (req, res) => { //Line 9
-//     res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' }); //Line 10
-//   });
 
 app.listen(port, () => {
     console.log(`Web app listening at http://localhost:${port}`)
