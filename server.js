@@ -51,10 +51,9 @@ app.get('/about', (req, res) => {
     res.sendFile(__dirname + "/build/about.min.html");
 })
 
-let status = false;
-
 app.post("/contact", (req, res) => {
     console.log(req.body);
+    let status = true;
     if (!messageValidation(req.body)) {
         console.log("Input data is illegal.");
         status = false;
@@ -71,6 +70,7 @@ app.post("/contact", (req, res) => {
             }
         });
     }
+    res.send(status);
 })
 
 function messageValidation(message) {

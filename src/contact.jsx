@@ -9,7 +9,7 @@ function StatusMessage(status) {
         case 0:
             return (<p className='medium-text black-color'></p>);
         case 1:
-            return (<p className='medium-text black-color'>服务器错误，请稍后重试。请检查你的消息里是否含有空白内容。</p>);
+            return (<p className='medium-text black-color'>服务器错误，请刷新后重试。请检查你的消息里是否含有空白内容。</p>);
         case 2:
             return (<p className='medium-text black-color'>我们已经收到了你的消息，并会尽快联系你</p>);
         default:
@@ -89,15 +89,21 @@ function SHUIContact() {
         }
         axios.post("http://localhost:3000/contact", postMessage)
             .then(response => {
-                console.log(response)
+                console.log(response.data);
+                changeStatusHandler(response.data);
             })
             .catch(error => {
                 console.log(error)
             })
     }
 
-    function changeStatusHandler() {
-        setStatus();
+    function changeStatusHandler(status) {
+        if (status === true) {
+            setStatus(2);
+        }
+        else {
+            setStatus(1);
+        }
     }
 }
 
