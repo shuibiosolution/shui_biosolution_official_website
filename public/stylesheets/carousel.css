@@ -16,11 +16,26 @@
 }
 
 .carousel-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 20;
-    height: 50%;
-    width: 65%;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+}
+
+img#carousel-ch-en-text {
+    width: 50%;
+    top: 65%;
+}
+
+img#carousel-about {
+    left: 40%;
+    width: 12%;
+    top: 80%;
+}
+
+img#carousel-contact {
+    left: 60%;
+    width: 12%;
+    top: 80%;
 }
