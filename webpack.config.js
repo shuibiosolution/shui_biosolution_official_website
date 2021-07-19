@@ -7,6 +7,10 @@ module.exports = {
         water: __dirname + '/src/water.jsx',
         earth: __dirname + '/src/earth.jsx',
         about: __dirname + '/src/about.jsx',
+        index: __dirname + '/src/index.en.jsx',
+        water: __dirname + '/src/water.en.jsx',
+        earth: __dirname + '/src/earth.en.jsx',
+        about: __dirname + '/src/about.en.jsx',
     },
     module: {
         rules: [
@@ -72,6 +76,30 @@ module.exports = {
             chunks: ["about"],
             filename: "about.min.html",
             template: __dirname + "/views/about.html"
+        }),
+        new HTMLWebpackPlugin({
+            inject: true,
+            chunks: ["index.en"],
+            filename: "index.en.min.html",
+            template: __dirname + "/views/index.en.html"
+        }),
+        new HTMLWebpackPlugin({
+            inject: true,
+            chunks: ["water.en"],
+            filename: "water.en.min.html",
+            template: __dirname + "/views/water.en.html"
+        }),
+        new HTMLWebpackPlugin({
+            inject: true,
+            chunks: ["earth.en"],
+            filename: "earth.en.min.html",
+            template: __dirname + "/views/earth.en.html"
+        }),
+        new HTMLWebpackPlugin({
+            inject: true,
+            chunks: ["about.en"],
+            filename: "about.en.min.html",
+            template: __dirname + "/views/about.en.html"
         })
     ]
 };
