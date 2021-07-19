@@ -7,11 +7,11 @@ import axios from "axios";
 function StatusMessage(status) {
     switch (status) {
         case 0:
-            return (<p className='medium-text black-color'></p>);
+            return (<p className='medium-text-contact black-color'></p>);
         case 1:
-            return (<p className='medium-text black-color'>服务器错误，请刷新后重试。请检查你的消息里是否含有空白内容。</p>);
+            return (<p className='medium-text-contact black-color'>服务器错误，请刷新后重试。请检查你的消息里是否含有空白内容。</p>);
         case 2:
-            return (<p className='medium-text black-color'>我们已经收到了你的消息，并会尽快联系你</p>);
+            return (<p className='medium-text-contact black-color'>我们已经收到了你的消息，并会尽快联系你</p>);
         default:
             return null;
     }

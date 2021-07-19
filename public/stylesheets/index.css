@@ -36,22 +36,13 @@ a {
   color: #FFFFFF;
 }
 
-.ant-collapse-header{
+.medium-text, .ant-collapse-header{
   font-family: Inter !important; 
   font-style: normal !important;
   font-weight: 300 !important;
   font-size: 21px !important;
   letter-spacing: -0.017em !important;
   color: #FFFFFF !important;
-}
-
-.medium-text{
-  font-family: Inter; 
-  font-style: normal;
-  font-weight: 300;
-  font-size: 21px;
-  letter-spacing: -0.017em;
-  color: #FFFFFF;
 }
 
 .short-hr {

@@ -1,13 +1,13 @@
+import { Col, Layout, Row } from 'antd';
 import React from "react";
 import ReactDOM from "react-dom";
-
-import "/public/stylesheets/about.css";
-import { Layout, Row, Col } from 'antd';
-import SHUIMenu from "./menu.jsx";
 import SHUICard from "./card.jsx";
 import SHUIColorCard from "./colorCard.jsx";
 import SHUIMember from "./member.jsx";
+import SHUIMenu from "./menu.jsx";
 import SHUISponsor from "./sponsor.jsx";
+import "/public/stylesheets/about.css";
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 </style>
