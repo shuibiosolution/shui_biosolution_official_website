@@ -139,7 +139,7 @@ ReactDOM.render(<Layout className="layout">
                 </Collapse>
             </div>
         </SHUICard>
-        <SHUIContact />
+        <SHUIContact id="contact" />
     </Content>
 
 </Layout>, document.getElementById("root"));

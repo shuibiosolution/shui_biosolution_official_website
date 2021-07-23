@@ -20,19 +20,19 @@ function StatusMessage(status) {
 function SHUIContact() {
 
     const [status, setStatus] = useState(0);
-    const [name, setName] = useState("姓名");
-    const [email, setEmail] = useState("邮箱");
-    const [subject, setSubject] = useState("主题");
-    const [message, setMessage] = useState("消息");
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
 
     return (
         <Row>
             <Col className="gutter-row" span={12}>
                 <form onSubmit={submitHandler}>
-                    <input value={name} type="text" name="name" onChange={changeHandler} />
-                    <input value={email} type="email" name="email" onChange={changeHandler} /><br />
-                    <input value={subject} type="text" name="subject" onChange={changeHandler} /><br />
-                    <input value={message} type="text" name="message" onChange={changeHandler} />
+                    <input value={name} type="text" placeholder="姓名" name="name" onChange={changeHandler} />
+                    <input value={email} type="email" placeholder="邮箱" name="email" onChange={changeHandler} /><br />
+                    <input value={subject} type="text" placeholder="主题" name="subject" onChange={changeHandler} /><br />
+                    <input value={message} type="text" placeholder="消息" name="message" onChange={changeHandler} />
                     <input type="submit" />
                 </form>
                 {StatusMessage(status)}
@@ -93,7 +93,7 @@ function SHUIContact() {
                 changeStatusHandler(response.data);
             })
             .catch(error => {
-                console.log(error)
+                console.log(error);
             })
     }
 

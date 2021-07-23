@@ -12,8 +12,7 @@ function SHUICarousel() {
                     <div>
                         <img src="/title4.png" className="carousel-text" />
                         <img src="/carousel-text.png" className="carousel-text" id="carousel-ch-en-text" />
-                        <a href=""> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
-                        <a href=""> <img src="/carousel-contact.png" className="carousel-text" id="carousel-contact" /> </a>
+                        <a href="/about"> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
 
                     </div>
                 </div >
@@ -22,8 +21,7 @@ function SHUICarousel() {
                     <div>
                         <img src="/title5.png" className="carousel-text" />
                         <img src="/carousel-text.png" className="carousel-text" id="carousel-ch-en-text" />
-                        <a href=""> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
-                        <a href=""> <img src="/carousel-contact.png" className="carousel-text" id="carousel-contact" /> </a>
+                        <a href="/about"> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
                     </div>
                 </div>
                 <div class="carousel-container">
@@ -31,8 +29,7 @@ function SHUICarousel() {
                     <div>
                         <img src="/title4.png" className="carousel-text" />
                         <img src="/carousel-text.png" className="carousel-text" id="carousel-ch-en-text" />
-                        <a href=""> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
-                        <a href=""> <img src="/carousel-contact.png" className="carousel-text" id="carousel-contact" /> </a>
+                        <a href="/about"> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
                     </div>
                 </div>
             </Carousel>
