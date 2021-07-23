@@ -7,10 +7,10 @@ module.exports = {
         water: __dirname + '/src/water.jsx',
         earth: __dirname + '/src/earth.jsx',
         about: __dirname + '/src/about.jsx',
-        index: __dirname + '/src/index.en.jsx',
-        water: __dirname + '/src/water.en.jsx',
-        earth: __dirname + '/src/earth.en.jsx',
-        about: __dirname + '/src/about.en.jsx',
+        index_en: __dirname + '/src/index.en.jsx',
+        water_en: __dirname + '/src/water.en.jsx',
+        earth_en: __dirname + '/src/earth.en.jsx',
+        about_en: __dirname + '/src/about.en.jsx',
     },
     module: {
         rules: [
