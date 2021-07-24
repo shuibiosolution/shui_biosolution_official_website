@@ -13,7 +13,6 @@ function SHUICarousel() {
                         <img src="/title4.png" className="carousel-text" />
                         <img src="/carousel-text.png" className="carousel-text" id="carousel-ch-en-text" />
                         <a href="/about"> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
-
                     </div>
                 </div >
                 <div class="carousel-container">
@@ -22,6 +21,7 @@ function SHUICarousel() {
                         <img src="/title5.png" className="carousel-text" />
                         <img src="/carousel-text.png" className="carousel-text" id="carousel-ch-en-text" />
                         <a href="/about"> <img src="/carousel-about.png" className="carousel-text" id="carousel-about" /> </a>
+
                     </div>
                 </div>
                 <div class="carousel-container">

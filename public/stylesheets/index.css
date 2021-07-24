@@ -19,20 +19,16 @@ a {
 }
 
 .big-text {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 900;
   font-size: 26px;
-  letter-spacing: -0.017em;
+  letter-spacing: 0.1em;
   color: #FFFFFF;
 }
 
 .small-text {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 100;
   font-size: 16px;
-  letter-spacing: -0.017em;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
 }
 
@@ -104,16 +100,14 @@ a {
 #card1 {
   position: absolute;
   left: 8%;
-  top: 73%;
+  bottom: -5%;
   width: 80%;
   height: 40%;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 100;
   font-size: 20px;
-  letter-spacing: -0.017em;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
-  line-height: 14px;
+  line-height: 1.2em;
 }
 
 #card2 {
@@ -122,13 +116,11 @@ a {
   top: 48%;
   width: 80%;
   height: 40%;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 100;
   font-size: 20px;
-  letter-spacing: -0.017em;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
-  line-height: 14px;
+  line-height: 1.2em;
 }
 
 #card3 {
@@ -137,13 +129,11 @@ a {
   top: 58%;
   width: 80%;
   height: 40%;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 100;
   font-size: 20px;
-  letter-spacing: -0.017em;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
-  line-height: 14px;
+  line-height: 1.2em;
 }
 
 #em1, #em2, #em3 {
@@ -168,7 +158,7 @@ a {
   top: 50%;
   width: 80%;
   height: 40%;
-  line-height: 14px;
+  line-height: 1em;
 }
 
 #card5 {
@@ -196,4 +186,20 @@ a {
   width: 70%;
   height: 70%;
   line-height: 14px;
+}
+
+a:link, a:visited, a:active {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img#water-learnmore {
+  width: 120px;
+}
+
+img#earth-learnmore {
+  width: 120px;
 }

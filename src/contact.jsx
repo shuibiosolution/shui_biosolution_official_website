@@ -29,19 +29,19 @@ function SHUIContact() {
         <Row>
             <Col className="gutter-row" span={12}>
                 <form onSubmit={submitHandler}>
-                    <input value={name} type="text" placeholder="姓名" name="name" onChange={changeHandler} />
+                    <input value={name} type="text" placeholder="姓名" name="name" onChange={changeHandler} /><br />
                     <input value={email} type="email" placeholder="邮箱" name="email" onChange={changeHandler} /><br />
                     <input value={subject} type="text" placeholder="主题" name="subject" onChange={changeHandler} /><br />
-                    <input value={message} type="text" placeholder="消息" name="message" onChange={changeHandler} />
+                    <textarea value={message} type="text" placeholder="消息" name="message" onChange={changeHandler} cols="30" rows="10" ></textarea><br />
                     <input type="submit" />
                 </form>
                 {StatusMessage(status)}
             </Col>
             <Col className="gutter-row" span={12}>
                 <p className="big-text-contact blue-color">联系我们 & 加入我们</p>
-                <p className="medium-text-contact blue-color">公司邮箱：</p>
-                <p className="medium-text-contact blue-color">公司地址：</p>
-                <a href="https://www.linkedin.com/company/shui-biosolution-technologies-llc/" target="_blank"><img src="linkedin.png" /></a>
+                <p className="medium-text-contact blue-color">公司邮箱：shuibiosolution@gmail.com</p>
+                <p className="medium-text-contact blue-color">公司地址：北京</p>
+                <a href="https://www.linkedin.com/company/shui-biosolution-technologies-llc/" target="_blank"><img src="linkedin.png" id="linkedin" /></a>
             </Col>
         </Row>
     )

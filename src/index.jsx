@@ -9,10 +9,6 @@ import SHUIWhiteFrame from "./whiteFrame.jsx";
 import SHUICard from "./card.jsx";
 import SHUIContact from "./contact.jsx";
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
-</style>
-
 const { Header, Content, Footer } = Layout;
 
 const { Panel } = Collapse;
@@ -75,6 +71,7 @@ ReactDOM.render(<Layout className="layout">
                         <hr className="short-hr" />
                         <p className="small-text">工业微生物将替代</p>
                         <p className="small-text">传统的高耗能的污染治理</p>
+                        <a href="/water"> <img src="/learn-more.png" alt="learn more" id="water-learnmore" /> </a>
                     </div>
                 </SHUICard>
             </Col>
@@ -85,6 +82,7 @@ ReactDOM.render(<Layout className="layout">
                         <hr className="short-hr" />
                         <p className="small-text">改造土壤微生物</p>
                         <p className="small-text">构建检测，处理，维护一体化体系</p>
+                        <a href="/earth"> <img src="/learn-more.png" alt="learn more" id="earth-learnmore" /> </a>
                     </div>
                 </SHUICard>
             </Col>

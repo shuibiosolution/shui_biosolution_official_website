@@ -53,7 +53,7 @@ ul {
   padding: 0 0 0 3vw;
 }
 
-li {
+.stats li {
   display: inline;
   box-sizing: border-box;
   width: 14vw;

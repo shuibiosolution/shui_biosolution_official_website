@@ -37,7 +37,7 @@ ReactDOM.render(<Layout className="layout">
                     <div className="card8-item">
                         <br /><br /><br />
                         <hr />
-                        <ul>
+                        <ul className="stats">
                             <li>
                                 <img src="/30red.png" alt="30 %" span={2} />
                                 <p>目前，全球 1/3 的人无法获得安全健康的直饮水</p>

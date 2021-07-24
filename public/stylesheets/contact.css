@@ -1,25 +1,23 @@
+html, body {
+    background-color: white;
+  }
+
 .big-text-contact {
-    font-family: Inter;
-    font-style: normal;
     font-weight: 900;
     font-size: 26px;
-    letter-spacing: -0.017em;
+    letter-spacing: 0.1em;
 }
 
 .small-text-contact {
-    font-family: Inter;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    letter-spacing: -0.017em;
+    letter-spacing: 0.02em;
 }
 
 .medium-text-contact {
-    font-family: Inter;
-    font-style: normal;
     font-weight: 300;
     font-size: 21px;
-    letter-spacing: -0.017em;
+    letter-spacing: 0.02em;
 }
 
 .blue-color {
@@ -28,4 +26,22 @@
 
 .black-color {
     color: #000;
+}
+
+form {
+    margin: 8%;
+}
+
+input, textarea {
+    margin: 1%;
+    border: solid 0px;
+    width: 90%;
+}
+
+p.big-text-contact.blue-color {
+    margin: 10%;
+}
+
+#linkedin {
+    max-width: 30%;
 }

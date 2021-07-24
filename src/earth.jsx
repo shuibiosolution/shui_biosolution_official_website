@@ -37,7 +37,7 @@ ReactDOM.render(<Layout className="layout">
                     <div className="card11-item">
                         <br /><br /><br />
                         <hr />
-                        <ul>
+                        <ul className="stats">
                             <li>
                                 <img src="/19black.png" alt="19 %" />
                                 <p>在中国，19% 的耕地有不同程度的重金属污染</p>

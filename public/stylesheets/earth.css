@@ -44,7 +44,7 @@ html, body {
     padding: 0 0 0 3vw;
   }
   
-  li {
+  .stats li {
     width: 22vw;
     padding: 2vw 2vw 0;
     display: inline-block;
