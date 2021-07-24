@@ -50,8 +50,7 @@ ReactDOM.render(<Layout className="layout">
                 <SHUICard image="/card3.png">
                     <div id="card3">
                         <p>前沿的合成材料</p>
-                        <p>与创新性的<span id="em3">生物工程菌</span></p>
-                        <p>系统结合</p>
+                        <p>与创新性的<span id="em3">生物工程菌</span>系统结合</p>
                         <p>将为环境治理提供一个</p>
                         <p>革命性的新维度</p>
                     </div>

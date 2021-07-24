@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   padding: 0px;
   overflow-x: hidden;
+  letter-spacing: 0.05em;
 }
 
 Header {
@@ -20,24 +21,24 @@ Header {
 }
 
 .big-text {
-  font-family: 'Long Cang', cursive;
-  font-size: 4vw;
-  letter-spacing: 0.2em;
+  font-size: 3vw;
+  letter-spacing: 0.1em;
   color: #FFFFFF;
   text-align: center;
-  padding: 2%;
-  text-shadow: 0 0 5px white
+  padding: 3%;
+  text-shadow: 0 0 5px white;
+  margin: 0;
 }
 
 .small-text {
-  font-family: 'Long Cang', cursive;
-  font-size: 20px;
+  font-weight: 100;
+  font-size: 1.7vw;
   color: #FFFFFF;
 }
 
 .medium-text {
-  font-family: 'Long Cang', cursive;
-  font-size: 24px;
+  font-size: 2vw;
+  font-weight: 600;
   color: #FFFFFF;
 }
 
@@ -48,10 +49,6 @@ Header {
 
 .member img{
   max-height: 80%;
-}
-
-img.sponsor-image {
-  padding: 10%;
 }
 
 .ant-col.ant-col-19.gutter-row {

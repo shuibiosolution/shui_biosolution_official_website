@@ -1,3 +1,7 @@
 .sponsor-image {
     max-width: 100%;
 }
+
+.ant-col.ant-col-12.gutter-row {
+    padding: 2% 2% 0;
+}

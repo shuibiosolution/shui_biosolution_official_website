@@ -4,20 +4,20 @@ html, body {
 
 .big-text-contact {
     font-weight: 900;
-    font-size: 26px;
+    font-size: 3vw;
     letter-spacing: 0.1em;
 }
 
 .small-text-contact {
     font-weight: 100;
-    font-size: 16px;
-    letter-spacing: 0.02em;
+    font-size: 1.7vw;
+    letter-spacing: 0.05em;
 }
 
 .medium-text-contact {
     font-weight: 300;
-    font-size: 21px;
-    letter-spacing: 0.02em;
+    font-size: 2vw;
+    letter-spacing: 0.05em;
 }
 
 .blue-color {
