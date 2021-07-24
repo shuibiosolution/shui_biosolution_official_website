@@ -18,6 +18,9 @@ class SHUIMenu extends React.Component {
         const { current } = this.state;
         return (
             <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" className="menu">
+                <a href="/"><Menu.Item key="menu-icon" className="menu-item-left">
+                    <img src="/logo.png" alt="SHUI" className="icon" />
+                </Menu.Item></a>
                 <a href="/"><Menu.Item key="menu-index" className="menu-item-right">
                     <p className="menu-text">首页</p>
                 </Menu.Item></a>
