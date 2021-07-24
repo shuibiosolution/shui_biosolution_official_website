@@ -4,28 +4,18 @@ html, body {
   width: 100%;
   padding: 0px;
   overflow-x: hidden;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  line-height: 1.2em;
 }
 
 Header {
   background-color: white !important
 }
 
-/* #card8 {
-position: absolute;
-top: 100%;
-padding: 40% 10%;
-    
-font-style: normal;
-font-size: 2.5vw;
-line-height: 140%;
-font-family: 'Long Cang', cursive;
-  
-color: #FFFFFF;
-} */
 
 .card8-item {
   font-size: 1.7vw;
-  font-family: 'Long Cang', cursive;
   display: block;
   color: #FFFFFF;
 }
@@ -74,8 +64,6 @@ li img {
   font-style: normal;
   font-weight: 20;
   font-size: 1.7vw;
-  line-height: 140%;
-  font-family: 'Long Cang', cursive;
   color: #FFFFFF;
 }
 
@@ -85,15 +73,12 @@ li img {
   font-style: normal;
   font-weight: 20;
   font-size: 1.7vw;
-  line-height: 140%;
-  font-family: 'Long Cang', cursive;
   color: #FFFFFF;
 }
 
 #card10-text em {
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 2vw;
-  font-family: 'Long Cang', cursive;
   color: #00CDB4;
 }

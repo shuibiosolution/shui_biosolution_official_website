@@ -4,6 +4,9 @@ html, body {
     width: 100%;
     padding: 0px;
     overflow-x: hidden;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    line-height: 1.2em;
   }
   
   Header {
@@ -12,7 +15,6 @@ html, body {
   
   .card11-item {
     font-size: 1.2vw;
-    font-family: 'Long Cang', cursive;
     display: block;
     color: #FFFFFF;
   }
@@ -63,8 +65,6 @@ html, body {
     font-style: normal;
     font-weight: 20;
     font-size: 1.7vw;
-    line-height: 140%;
-    font-family: 'Long Cang', cursive;
     color: #FFFFFF;
   }
   
@@ -74,15 +74,12 @@ html, body {
     font-style: normal;
     font-weight: 20;
     font-size: 1.7vw;
-    line-height: 140%;
-    font-family: 'Long Cang', cursive;
     color: #FFFFFF;
   }
   
   #card13-text em {
     font-style: normal;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 2vw;
-    font-family: 'Long Cang', cursive;
     color: #ffd000;
   }

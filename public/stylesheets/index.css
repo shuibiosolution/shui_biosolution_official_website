@@ -20,25 +20,24 @@ a {
 
 .big-text {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 2.5vw;
   letter-spacing: 0.1em;
   color: #FFFFFF;
 }
 
 .small-text {
   font-weight: 100;
-  font-size: 16px;
-  letter-spacing: 0.02em;
+  font-size: 1.7vw;
+  letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 
 .medium-text, .ant-collapse-header{
-  font-family: Inter !important; 
-  font-style: normal !important;
-  font-weight: 300 !important;
-  font-size: 21px !important;
-  letter-spacing: -0.017em !important;
+  font-weight: 500;
+  font-size: 2vw;
+  letter-spacing: 0.05em;
   color: #FFFFFF !important;
+  line-height: 0.9em !important;
 }
 
 .short-hr {
@@ -104,8 +103,8 @@ a {
   width: 80%;
   height: 40%;
   font-weight: 100;
-  font-size: 20px;
-  letter-spacing: 0.02em;
+  font-size: 1.7vw;
+  letter-spacing: 0.05em;
   color: #FFFFFF;
   line-height: 1.2em;
 }
@@ -117,8 +116,8 @@ a {
   width: 80%;
   height: 40%;
   font-weight: 100;
-  font-size: 20px;
-  letter-spacing: 0.02em;
+  font-size: 1.7vw;
+  letter-spacing: 0.05em;
   color: #FFFFFF;
   line-height: 1.2em;
 }
@@ -130,8 +129,8 @@ a {
   width: 80%;
   height: 40%;
   font-weight: 100;
-  font-size: 20px;
-  letter-spacing: 0.02em;
+  font-size: 1.7vw;
+  letter-spacing: 0.05em;
   color: #FFFFFF;
   line-height: 1.2em;
 }
