@@ -21,24 +21,17 @@ Header {
 }
 
 .big-text {
-<<<<<<< HEAD
+
   font-size: 30px;
   letter-spacing: 0.1em;
   color: #FFFFFF;
   text-align: center;
   padding:45px 0 0;
-=======
-  font-size: 3vw;
-  letter-spacing: 0.1em;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 3%;
->>>>>>> main
+
   text-shadow: 0 0 5px white;
   margin: 0;
 }
 
-<<<<<<< HEAD
 .medium-text {
   font-weight: 400;
   font-size: 20px;
@@ -53,36 +46,7 @@ Header {
   color: #FFFFFF;
 }
 
-=======
-.small-text {
-  font-weight: 100;
-  font-size: 1.7vw;
-  color: #FFFFFF;
-}
 
-.medium-text {
-  font-size: 2vw;
-  font-weight: 600;
-  color: #FFFFFF;
-}
-
-.member {
-  padding: 0 3% 0;
-  display: inline-block;
-}
-
-.member img{
-  max-height: 80%;
-}
-
-.ant-col.ant-col-19.gutter-row {
-  max-width: 70%;
-}
-
-.ant-col.ant-col-6.gutter-row {
-  margin: 1%;
-}
->>>>>>> main
 
 img#play-button {
   top: 80%;
