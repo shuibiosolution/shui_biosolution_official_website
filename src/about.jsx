@@ -94,12 +94,18 @@ ReactDOM.render(<Layout className="layout">
                 <p className="big-text">我们的团队</p>
             </div>
             {/* Could use a map function or a for-loop here but I forgot how */}
+<<<<<<< HEAD
             <div className="members" >
                 <SHUIMember name_title={members[0].name_title} image={members[0].image} bio={members[0].bio} linkedin={members[0].linkedin} />
                 <SHUIMember name_title={members[1].name_title} image={members[1].image} bio={members[1].bio} linkedin={members[1].linkedin} />
                 <SHUIMember name_title={members[2].name_title} image={members[2].image} bio={members[2].bio} linkedin={members[2].linkedin} />
             </div>
 
+=======
+            <SHUIMember name_title={members[0].name_title} image={members[0].image} bio={members[0].bio} linkedin={members[0].linkedin} />
+            <SHUIMember name_title={members[1].name_title} image={members[1].image} bio={members[1].bio} linkedin={members[1].linkedin} />
+            <SHUIMember name_title={members[2].name_title} image={members[2].image} bio={members[2].bio} linkedin={members[2].linkedin} />
+>>>>>>> main
 
         </SHUIColorCard>
         <SHUIColorCard style={{ backgroundColor: "#4285F4" }}>
