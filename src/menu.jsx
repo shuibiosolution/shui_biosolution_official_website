@@ -33,7 +33,7 @@ class SHUIMenu extends React.Component {
                 <a href="/about"><Menu.Item key="menu-about" className="menu-item-right">
                     <p className="menu-text">关于我们</p>
                 </Menu.Item></a>
-                <a href="/eng"><Menu.Item key="menu-lang" className="menu-item-right">
+                <a href="/en"><Menu.Item key="menu-lang" className="menu-item-right">
                     <p className="menu-text">中文/English</p>
                 </Menu.Item></a>
             </Menu>

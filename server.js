@@ -50,6 +50,22 @@ app.get('/about', (req, res) => {
     res.sendFile(__dirname + "/build/about.min.html");
 })
 
+app.get('/en', (req, res) => {
+    res.sendFile(__dirname + "/build/index.en.min.html");
+})
+
+app.get('/earth.en', (req, res) => {
+    res.sendFile(__dirname + "/build/earth.en.min.html");
+})
+
+app.get('/water.en', (req, res) => {
+    res.sendFile(__dirname + "/build/water.en.min.html");
+})
+
+app.get('/about.en', (req, res) => {
+    res.sendFile(__dirname + "/build/about.en.min.html");
+})
+
 app.post("/contact", (req, res) => {
     console.log(req.body);
     let status = true;
