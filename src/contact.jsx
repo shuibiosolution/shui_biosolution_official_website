@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import "/public/stylesheets/contact.css"
 import axios from "axios";
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 function StatusMessage(status) {
     switch (status) {
