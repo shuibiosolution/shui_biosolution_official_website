@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js",
+    "start server": "node server.js",
     "build": "webpack --config webpack.config.js",
-    "test": "npm run build && npm run start"
+    "test": "npm run build && npm run start",
+    "start": "npm run build && npm run start"
   },
   "engines": {
     "node": "14.17.1"
