@@ -53,9 +53,6 @@ module.exports = {
         path: __dirname + '/build',
     },
     plugins: [
-        new Webpack.DefinePlugin({
-            'process.env.PORT': JSON.stringify(process.env.PORT),
-          }),
         new HTMLWebpackPlugin({
             inject: true,
             chunks: ["index"],
