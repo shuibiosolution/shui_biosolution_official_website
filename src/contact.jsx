@@ -83,13 +83,14 @@ function SHUIContact() {
     async function submitHandler(e) {
         e.preventDefault();
         console.log(name, email, subject, message);
+        console.log(port);
         const postMessage = {
             name: name,
             email: email,
             subject: subject,
             message: message
         }
-        await axios.post(`http://localhost:${port}/contact`, postMessage)
+        await axios.post(`/contact`, postMessage)
             .then(response => {
                 console.log(response.data);
                 changeStatusHandler(response.data);
