@@ -4,6 +4,8 @@ import 'antd/dist/antd.css';
 import "/public/stylesheets/contact.css"
 import axios from "axios";
 
+const port = process.env.PORT || 3000;
+
 function StatusMessage(status) {
     switch (status) {
         case 0:
@@ -87,7 +89,7 @@ function SHUIContact() {
             subject: subject,
             message: message
         }
-        await axios.post("http://localhost:3000/contact", postMessage)
+        await axios.post(`http://localhost:${port}/contact`, postMessage)
             .then(response => {
                 console.log(response.data);
                 changeStatusHandler(response.data);
