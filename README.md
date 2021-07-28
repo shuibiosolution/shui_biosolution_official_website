@@ -1,27 +1,22 @@
 #### Developer: [Li Fengyu](https://github.com/fengyuli2002)
 #### Designer: [Liu Yueming](https://github.com/liuyuemingm)
 ---
-# Instructions for Collaboration and Future Maintenance
+# Instructions for Updates and Maintenance (Collaborator Only)
 
-1. Fork this repository, or directly pull from the repository if you're a collaboartor.
-
-2. Clone it to keep a local copy.
-
-3. `cd` into the project directory.
-
-4. Make sure you have [Node.js](https://nodejs.org/en/) installed in your environment.
-
-5. Run the following commands in terminal:
+1. Make sure you have [Node.js](https://nodejs.org/en/) installed in your environment.
+2. Run the following commands in the project's root directory:
 
    ```shell
-   // Install react, react-dom, antd, and other necessary packages.
+   // Install react, mongoose, antd, and other necessary packages.
    npm i
    // Install webpack and babel to compile your JSX code.
    npm i -D
 
-6. Make changes.
-7. To effectuate all changes, run `npm test`.
-8. Alternatively, to effectuate only changes associated with React.js, run `npm run build`, which triggers the webpack bundling. To initiate the Express.js server, run `npm run start`.
-9. If you're using a local environment, the console shall log a success message "Web app listening at http://localhost:3000". Copy this address and open it in the browser the see the homepage.
-10. Submit a commit or pull request.
-
+3. Make changes.
+4. To effectuate all changes, run `npm test`.
+5. Alternatively, to effectuate only changes associated with React.js, run `npm run build`, which triggers the webpack bundling. To initiate the Express.js server, run `npm run start`. See scripts in package.json for more.
+6. The default http localhost port is 3000. The server automatically switches to process.env.PORT when deployed.
+7. Submit a commit, then push.
+8. Make sure you have [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
+9. Run `git push heroku HEAD:master` to deploy the main branch. If asked for username and password, contact site administrator.
+10. Visit MongoDB Atlas service for incoming messages. Login using the credentials provided by the site administrator.
