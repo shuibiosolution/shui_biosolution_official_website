@@ -15,7 +15,7 @@
 3. Make changes.
 4. To effectuate all changes, run `npm test`.
 5. Alternatively, to effectuate only changes associated with React.js, run `npm run build`, which triggers the webpack bundling. To initiate the Express.js server, run `npm run start`. See scripts in package.json for more.
-6. The default http localhost port is 3000. The server automatically switches to process.env.PORT when deployed.
+6. The default http localhost port is 3000. The server automatically switches to `process.env.PORT` when deployed.
 7. Submit a commit, then push.
 8. Make sure you have [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
 9. Run `git push heroku HEAD:master` to deploy the main branch. If asked for username and password, contact site administrator.
