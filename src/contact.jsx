@@ -81,7 +81,6 @@ function SHUIContact() {
     async function submitHandler(e) {
         e.preventDefault();
         console.log(name, email, subject, message);
-        console.log(port);
         const postMessage = {
             name: name,
             email: email,
