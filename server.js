@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://shuibiosolution:shuibiosolution@cluster0.b04va.mongodb.net/messageDB", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://shuibiosolution:shuibiosolution@cluster0.b04va.mongodb.net/messageDB?retryWrites=true&w=majority", { useNewUrlParser: true });
 
 const messageSchema = new mongoose.Schema({
     name: {
@@ -25,8 +25,6 @@ const messageSchema = new mongoose.Schema({
 })
 
 const Message = mongoose.model("Message", messageSchema);
-
-const message = new Message()
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -82,6 +80,7 @@ app.post("/contact", (req, res) => {
         }, (error) => {
             if (error) {
                 status = false;
+                console.log(error);
             }
         });
     }

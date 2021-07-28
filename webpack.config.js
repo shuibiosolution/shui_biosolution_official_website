@@ -1,5 +1,5 @@
-var HTMLWebpackPlugin = require('html-webpack-plugin');
-const { Template } = require('webpack');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const Webpack = require('webpack');
 
 module.exports = {
     entry: {
@@ -53,6 +53,9 @@ module.exports = {
         path: __dirname + '/build',
     },
     plugins: [
+        new Webpack.DefinePlugin({
+            'process.env.PORT': JSON.stringify(process.env.PORT),
+          }),
         new HTMLWebpackPlugin({
             inject: true,
             chunks: ["index"],
