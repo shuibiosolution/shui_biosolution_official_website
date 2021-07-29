@@ -75,8 +75,6 @@ const sponsors = [
 
 ReactDOM.render(<Layout className="layout">
 
-    <MetaTag />
-
     <Header>
         {/* <div className="logo" /> */}
         <SHUIMenu />

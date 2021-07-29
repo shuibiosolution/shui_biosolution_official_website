@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
+const fs = require('fs')
 
 mongoose.connect("mongodb+srv://shuibiosolution:shuibiosolution@cluster0.b04va.mongodb.net/messageDB?retryWrites=true&w=majority", { useNewUrlParser: true });
 
@@ -34,6 +35,16 @@ app.use(express.static(__dirname + '/build'));
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/build/index.min.html");
+
+    // read in the index.html file
+    fs.readFile(__dirname + "/build/index.min.html", 'utf8', function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        // replace the special strings with server generated strings
+        result = data.replace(/\$OG_IMAGE/g, 'https://live.staticflickr.com/65535/51341729015_5e40d93442_k.jpg');
+        res.send(result);
+    });
 })
 
 app.get('/water', (req, res) => {
