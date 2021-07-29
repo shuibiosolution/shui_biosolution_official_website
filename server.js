@@ -34,8 +34,6 @@ app.use(express.static(__dirname + '/public/images'));
 app.use(express.static(__dirname + '/build'));
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + "/build/index.min.html");
-
     // read in the index.html file
     fs.readFile(__dirname + "/build/index.min.html", 'utf8', function (err, data) {
         if (err) {
