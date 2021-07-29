@@ -13,21 +13,21 @@ const { Header, Content, Footer } = Layout;
 // Enter details about members here
 const members = [
   {
-    name_title: "徐明阳 - CEO  ",
+    name_title: "Mingyang Xu  - CEO  ",
     image: "member1.png",
-    bio: "康奈尔大学 生物学与社会学理学士 | 负责组织工作、营销策略、企业外联、人才招聘和实习生培训计划。",
+    bio: "B.S. Biology + Sociology @ Cornell University | Heads general logistics, marketing strategy, corporate outreach, talent acquisition, and intern training program.",
     linkedin: "https://www.linkedin.com/in/mingyang-xu-6659a3197/"
   },
   {
-    name_title: "高宇轩 - CFO  ",
+    name_title: "Yuxuan Gao - CFO  ",
     image: "member2.png",
-    bio: "宾夕法尼亚大学沃顿商学院 计算机，财务和商业分析理学士 | 负责商业战略、财务预算、资金筹措和公司谈判。",
+    bio: "B.S. Computer Science + Finance & Business Analytics @ UPenn Wharton | Heads business strategy, financial budgeting and forecasting, fundraising, and corporate negotiations.",
     linkedin: "https://www.linkedin.com/in/michaelgyx/"
   },
   {
-    name_title: "倪赫远 - CTO \n & Director of R&D  ",
+    name_title: "Heyuan Ni - CTO \n & Director of R&D  ",
     image: "member3.png",
-    bio: "加州大学伯克利分校 分子和细胞生物学，数据科学文学士 | 协作负责产品开发和实验室运作；负责数据分析和通用技术开发。",
+    bio: "B.A. Molecular & Cellular Biology + Data Science @ UC Berkeley | Co-heads product development and laboratory operations; Heads data analytics and general technology developments.",
     linkedin: "https://www.linkedin.com/in/michael-ni/"
   }
 ];
@@ -36,34 +36,34 @@ const members = [
 
 const sponsors = [
   {
-    name: "上海 Tech X 夏令营  ",
+    name: "Tech X Academy  ",
     image: "sponsor1.png",
-    intro1: "投资方，研发支持",
-    intro2: "上海 Tech X 是中国最负盛名的科技夏令营之一，每年接待超过200名立志成为工程师、企业家和设计师的高中生与大学生。本项目的许多参与者成功进入顶级高等院校和硅谷领头企业。",
+    intro1: "Investor, R&D Support",
+    intro2: "Based in Shanghai, TechX is one of China's most prestigious technology summer institutes, annually hosting over 200 high school/college students who aspire to become engineers, entrepreneurs, and designers. Many of our participants successfully entered top-tier STEM undergraduate programs or Silicon Valley Giants.",
     website: "https://xacademy.cc/",
     linkedin: "https://www.linkedin.com/school/x-academy-cn/"
   },
   {
-    name: "宾夕法尼亚大学韦斯科技学院  ",
+    name: "Penn Weiss Tech House  ",
     image: "sponsor2.png",
-    intro1: "投资方，规模顾问",
-    intro2: "韦斯科技学院是宾夕法尼亚大学学生技术创新中心。韦斯科技学院鼓励和支持学生对创新性技术的创造、发展和商业化。",
+    intro1: "Investor, Scale Advisor",
+    intro2: "The Weiss Tech House is a student-run hub of technological innovation at the University of Pennsylvania. Weiss Tech House encourages and supports students in the creation, development, and commercialization of innovative technologies.",
     website: "https://global.upenn.edu/global/person/weiss-tech-house",
     linkedin: "https://www.linkedin.com/company/weisstech/"
   },
   {
-    name: "世界公民资本（Global Citizen Capital） ",
+    name: "Global Citizen Capital ",
     image: "sponsor3.png",
-    intro1: "可持续发展目标（SDG）顾问",
-    intro2: "Global Citizen Capital 致力于寻找新的产品和技术来改善可持续生活方式，提高生活质量，减少生活压力，使未来的地球成为美丽的家园。",
+    intro1: "SDG Advisor",
+    intro2: "Always on the hunt for exciting new products and technologies that contribute to sustainable living, whether it be a better quality of life or a stress-reduced way of living, to help Earth continue to be a hospitable home for generations to come.",
     website: "https://www.globalcitizencap.com/",
     linkedin: "https://www.linkedin.com/company/global-citizen-capital/"
   },
   {
-    name: "宾夕法尼亚大学创业实验室  ",
+    name: "Penn Venture Lab  ",
     image: "sponsor4.png",
-    intro1: "总顾问",
-    intro2: "培养学生与校友的创业精神和创业思维，最大限度地提高其迎接重大挑战的能力。",
+    intro1: "General Advisor",
+    intro2: "Maximizes the ability of Penn students and alumni to address important challenges through entrepreneurship and entrepreneurial thinking.",
     website: "https://entrepreneurship.wharton.upenn.edu/",
     linkedin: "https://www.linkedin.com/company/vntrlab/"
   }
@@ -87,7 +87,7 @@ ReactDOM.render(<Layout className="layout">
     </SHUICard>
     <SHUIColorCard style={{ backgroundColor: "#2D75EC" }}>
       <div id="card1">
-        <p className="big-text">我们的团队</p>
+        <p className="big-text">Our Team</p>
       </div>
       {/* Could use a map function or a for-loop here but I forgot how */}
       <div className="members" >
@@ -100,7 +100,7 @@ ReactDOM.render(<Layout className="layout">
     </SHUIColorCard>
     <SHUIColorCard style={{ backgroundColor: "#4285F4" }}>
       <div id="card2">
-        <p className="big-text">投资方与顾问</p>
+        <p className="big-text">Investors and Advisors</p>
       </div>
       <Row gutter={[0, 0]}>
         <Col className="gutter-row" span={12}>

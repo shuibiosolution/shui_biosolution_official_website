@@ -48,7 +48,7 @@ import ReactDOM from "react-dom";
 
 import "/public/stylesheets/index.css";
 import { Layout, Row, Col, Collapse } from 'antd';
-import SHUIMenu from "./menu.en.jsx";
+import SHUIMenu from "./menu.jsx";
 import SHUICarousel from "./carousel.jsx";
 import SHUIWhiteFrame from "./whiteFrame.jsx";
 import SHUICard from "./card.jsx";
@@ -60,128 +60,108 @@ const { Panel } = Collapse;
 
 ReactDOM.render(<Layout className="layout">
 
-    <Header>
-        {/* <div className="logo" /> */}
-        <SHUIMenu />
-    </Header>
+  <Header>
+    {/* <div className="logo" /> */}
+    <SHUIMenu />
+  </Header>
 
-    <Content>
-        <SHUICarousel />
-        <SHUIWhiteFrame>
-            <p className="white-frame1-text">Creating a Pollution-Free World</p>
-        </SHUIWhiteFrame>
-        <Row gutter={[0, 0]}>
-            <Col className="gutter-row" span={8}>
-                <SHUICard image="/card1.png">
-                    <div id="card1">
-                        <p>我们相信<span id="em1">生物技术</span>是</p>
-                        <p>解决世界环保问题的钥匙</p>
-                        <p>大自然创造万物的同时</p>
-                        <p>万物也孕育着治愈自然的能力</p>
-                    </div>
-                </SHUICard>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <SHUICard image="/card2.png">
-                    <div id="card2">
-                        <p>我们是一家成立于2020年的</p>
-                        <p><span id="em2">合成生物学科技企业</span></p>
-                        <p>我们利用生物合成与计算科学</p>
-                        <p>开发解决环境污染的新技术</p>
-                    </div>
-                </SHUICard>
-            </Col>
-            <Col className="gutter-row" span={8}>
-                <SHUICard image="/card3.png">
-                    <div id="card3">
-                        <p>前沿的合成材料</p>
-                        <p>与创新性的<span id="em3">生物工程菌</span>系统结合</p>
-                        <p>将为环境治理提供一个</p>
-                        <p>革命性的新维度</p>
-                    </div>
-                </SHUICard>
-            </Col>
-        </Row>
-        <SHUIWhiteFrame>
-            <p className="white-frame2-text1">我们的愿景</p>
-            <hr className="white-frame2-hr" />
-            <p className="white-frame2-text2">保护环境和人类健康</p>
-        </SHUIWhiteFrame>
-        <Row gutter={[0, 0]}>
-            <Col className="gutter-row" span={12}>
-                <SHUICard image="/card4.png">
-                    <div id="card4">
-                        <p className="big-text">革新水污染处理</p>
-                        <hr className="short-hr" />
-                        <p className="small-text">工业微生物将替代</p>
-                        <p className="small-text">传统的高耗能的污染治理</p>
-                        <a href="/water"> <img src="/learn-more.png" alt="learn more" id="water-learnmore" /> </a>
-                    </div>
-                </SHUICard>
-            </Col>
-            <Col className="gutter-row" span={12}>
-                <SHUICard image="/card5.png">
-                    <div id="card5">
-                        <p className="big-text">全新的土壤治理</p>
-                        <hr className="short-hr" />
-                        <p className="small-text">改造土壤微生物</p>
-                        <p className="small-text">构建检测，处理，维护一体化体系</p>
-                        <a href="/earth"> <img src="/learn-more.png" alt="learn more" id="earth-learnmore" /> </a>
-                    </div>
-                </SHUICard>
-            </Col>
-        </Row>
-        <SHUICard image="/card6.png">
-            <div id="card6">
-                <p className="big-text">技术</p> <br /> <br />
-                <p className="medium-text">合成生物学</p>
-                <p className="small-text">利用工程学的手段重新构建微生物去赋予其全新的功能。</p>
-                <p className="small-text">计算机技术与生命科学技术的结合将加速工业化微生物的开发与创新。</p> <br /> <br />
-                <p className="medium-text">定向进化</p>
-                <p className="small-text">模拟自然选择的过程去筛选最优的功能蛋白质。</p>
-                <p className="small-text">创意与理性的设计结合将不断优化我们的产品，达成最理想化的效果。</p>
-            </div>
+  <Content>
+    <SHUICarousel />
+    <SHUIWhiteFrame>
+      <p className="white-frame1-text">Creating a Pollution-Free World</p>
+    </SHUIWhiteFrame>
+    <Row gutter={[0, 0]}>
+      <Col className="gutter-row" span={8}>
+        <SHUICard image="/card1.png">
+          <div id="card1">
+            <p>Our belief is that<span id="em1">biotechnology</span>holds</p>
+            <p>the key to many environmental challenges</p>
+            <p>and that nature has great self-healing abilities</p>
+          </div>
         </SHUICard>
-        <SHUICard image="/card7.png">
-            <div id="card7">
-                <p className="big-text">常见问题</p> <br />
-                <Collapse defaultActiveKey={['1']} ghost accordion="true">
-                    <Panel header="公司的现况如何？" key="1">
-                        <p className="small-text">在BLUPHEA有限公司和北京大学生命科学学院的技术支持下，
-                            我公司开发了一套MVP净水系统，有效地解决了工业废水过滤中的重金属处理问题。
-                            我公司受北控水务集团（香港交易所代码：00371）的邀请，在工业环境中测试我们的产品，
-                            并与其下属工厂建立企业合作关系。目前我公司已从上海科技大学TechX Academy融资15000美元，
-                            从康奈尔创新基金（Cornell Innovation Fund）融资5000美元，
-                            并从宾夕法尼亚大学宾威科技基金（Penn Weiss Tech Fund）融资1000美元。
-                            我们当下正与奇绩创坛（原YC中国）协商30万美元的稀释性融资。
-                            我公司目前正在申请核心技术专利，预计将在2021年5月中旬将迎来第一笔收益流。</p>
-                        <a href=""></a>
-                    </Panel>
-                    <Panel header="公司对生物安全和环境安全的重视程度如何？" key="2">
-                        <p className="small-text">我们高度重视对生物安全和环境安全。我公司设计了一种生物开关，
-                            以确保功能性细菌只能在预定的工业条件被下激活，从而确保生物安全并防止信息泄露。
-                            此外，我公司设计生产的生物膜是高度可降解的。在产品生命周期结束时，
-                            它们将接受高温和紫外线处理，以确保残留物不会对环境产生负面影响。</p>
-                    </Panel>
-                    <Panel header="公司主要针对哪些市场和客户群体？" key="3">
-                        <p className="small-text">我公司的目标市场是中国的工业废水处理市场。
-                            该市场规模高达144亿美元，占全球市场份额的26.2%。仅2019年一年，
-                            该市场内72592个处理设施就处理了252亿吨废水。我公司主要服务于两类客户：
-                            工业园区和独立工厂。对于工业园区，我公司将多级过滤系统替换为单级的集成多层生物膜。
-                            对于独立的工厂，我公司制造高度定制化的生物膜来过滤目标重金属污染物。</p>
-                    </Panel>
-                    <Panel header="公司的下一步规划是什么？" key="4">
-                        <p className="small-text">我公司计划在<a href="http://www.chinawater.com.cn/">中国水利网</a>和
-                            <a href="https://www.northstarwater.com/">北辰水处理网</a>
-                            等专业废水解决方案网站推出一系列推广活动和产品演示项目。水务还计划与工业废水处理领域的龙头企业
-                            建立业务合作关系和直接企业联系，其中包括北京碧水源生态环境科技有限公司（深交所代码：300070）
-                            和北控水务集团（香港交易所代码：00371）。从长远角度，我公司计划与上述业内领先公司进行工业试验，
-                            从而建立产品信誉，提升品牌声誉。</p>
-                    </Panel>
-                </Collapse>
-            </div>
+      </Col>
+      <Col className="gutter-row" span={8}>
+        <SHUICard image="/card2.png">
+          <div id="card2">
+            <p>We are a <span id="em2">synthetic biotechnology company</span> incorporated in 2020</p>
+            <p>using biosynthesis and computer science</p>
+            <p>to develop new technologies against environmental pollution</p>
+          </div>
         </SHUICard>
-        <SHUIContact id="contact" />
-    </Content>
+      </Col>
+      <Col className="gutter-row" span={8}>
+        <SHUICard image="/card3.png">
+          <div id="card3">
+            <p>Cutting-edge synthetic materials</p>
+            <p>coupled with innovative bioengineering</p>
+            <p>can provide a revolutionary solution</p>
+            <p>to environmental challenges</p>
+          </div>
+        </SHUICard>
+      </Col>
+    </Row>
+    <SHUIWhiteFrame>
+      <p className="white-frame2-text1">Our Mission</p>
+      <hr className="white-frame2-hr" />
+      <p className="white-frame2-text2">Protecting Environmental and Human Health</p>
+    </SHUIWhiteFrame>
+    <Row gutter={[0, 0]}>
+      <Col className="gutter-row" span={12}>
+        <SHUICard image="/card4.png">
+          <div id="card4">
+            <p className="big-text">Wastewater Filtration</p>
+            <hr className="short-hr" />
+            <p className="small-text">Redefine wastewater treatment</p>
+            <p className="small-text">with low-cost industrial microorganisms</p>
+            <a href="/water"> <img src="/learn-more.png" alt="learn more" id="water-learnmore" /> </a>
+          </div>
+        </SHUICard>
+      </Col>
+      <Col className="gutter-row" span={12}>
+        <SHUICard image="/card5.png">
+          <div id="card5">
+            <p className="big-text">Soil Treatment</p>
+            <hr className="short-hr" />
+            <p className="small-text">Engineer soil microorganisms to build a integrated system</p>
+            <p className="small-text">for pollution detection, treatment and facility maintenance</p>
+            <a href="/earth"> <img src="/learn-more.png" alt="learn more" id="earth-learnmore" /> </a>
+          </div>
+        </SHUICard>
+      </Col>
+    </Row>
+    <SHUICard image="/card6.png">
+      <div id="card6">
+        <p className="big-text">Technology</p> <br /> <br />
+        <p className="medium-text">Synthetic Biology</p>
+        <p className="small-text">Reengineer microbes to endow them with greater functions.</p>
+        <p className="small-text">Combine computer technology and life science for faster development of innovative industrialized microorganisms.</p> <br /> <br />
+        <p className="medium-text">Directed Revolution</p>
+        <p className="small-text">Simulate the process of natural selection</p>
+        <p className="small-text">to screen the optimal functional proteins.
+        </p>
+      </div>
+    </SHUICard>
+    <SHUICard image="/card7.png">
+      <div id="card7">
+        <p className="big-text">FAQ</p> <br />
+        <Collapse defaultActiveKey={['1']} ghost accordion="true">
+          <Panel header="What is the current status of the company?" key="1">
+            <p className="small-text">With technical support from Bluepha Co., Ltd. and Peking University School of Life Science, SHUI has developed an MVP that effectively tackles heavy metal processing in industrial wastewater filtration. SHUI received an offer from BEWG: Beijing Enterprises Water Group Limited (HKSE: 00371) to test our product in industrial settings and establish corporate partnerships with its subsidiary factories. SHUI raised $15,000 from TechX Academy, $5000 from Cornell Innovation Fund, and $1000 from Penn Weiss Tech Fund and is currently negotiating dilutive funding of $300,000 with MiraclePlus (former YC China). SHUI is currently applying for a patent for its core technology, and the expected first revenue stream will come in mid-May 2021.</p>
+            <a href=""></a>
+          </Panel>
+          <Panel header="Do SHUI's products embrace biosafety and environmental safety?" key="2">
+            <p className="small-text">Absolutely YES, and this part is one of our top strengths. SHUI designed a bio-switch to ensure that functional bacteria will only activate their functionality under prespecified industrial conditions, which ensures biosafety and prevents information leakage. Moreover, SHUI's bio-films are highly biodegradable. At the end of the lifecycle, they will undergo a high temperature and ultraviolet process to make sure the end remnants will possess no negative impact on the environment.</p>
+          </Panel>
+          <Panel header="What market and customer segments does SHUI mainly target?" key="3">
+            <p className="small-text">SHUI targets the industrial wastewater treatment market in China, which sizes up to 14.4 billion USD and takes up 26.2% of the global market share. 25.2 billion tons of wastewater is processed in 2019 by 72592 units of treatment facilities. SHUI will mainly serve two types of clients: industrial parks and independent factories. For industrial parks, SHUI replaces multi-step filtration systems with an integrated multi-layer bio-film as one compatible step. For independent factories, SHUI manufactures highly customized biofilms to filter targeted heavy metal pollutants.</p>
+          </Panel>
+          <Panel header="What is the next step of SHUI?" key="4">
+            <p className="small-text">SHUI plans to launch a series of promotional campaigns and product demo projects on professional wastewater solution websites, including China’s Water Website and Northern Star Water Treatment Website. SHUI also plans to establish business cooperations with market leaders in industrial wastewater treatment, including Beijing Originwater Technology, Co., Ltd. (SZSE: 300070) and Beijing Enterprises Water Group Limited (HKSE: 00371) with direct corporate outreach. In the larger picture, SHUI plans to build product credibility and elevate brand reputation through successful industrial trials with the aforementioned leading wastewater treatment companies.</p>
+          </Panel>
+        </Collapse>
+      </div>
+    </SHUICard>
+    <SHUIContact id="contact" />
+  </Content>
 
 </Layout>, document.getElementById("root"));
