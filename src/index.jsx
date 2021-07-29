@@ -8,12 +8,15 @@ import SHUICarousel from "./carousel.jsx";
 import SHUIWhiteFrame from "./whiteFrame.jsx";
 import SHUICard from "./card.jsx";
 import SHUIContact from "./contact.jsx";
+import MetaTag from "./metaTag.jsx";
 
 const { Header, Content, Footer } = Layout;
 
 const { Panel } = Collapse;
 
 ReactDOM.render(<Layout className="layout">
+
+    <MetaTag />
 
     <Header>
         {/* <div className="logo" /> */}
