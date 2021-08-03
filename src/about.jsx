@@ -7,6 +7,7 @@ import SHUIMember from "./member.jsx";
 import SHUIMenu from "./menu.jsx";
 import SHUISponsor from "./sponsor.jsx";
 import "/public/stylesheets/about.css";
+import SHUIContact from './contact.jsx';
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
@@ -132,6 +133,7 @@ ReactDOM.render(<Layout className="layout">
                 </Col>
             </Row>
         </SHUIColorCard>
+        <SHUIContact />
     </Content>
 
 </Layout>, document.getElementById("root"));

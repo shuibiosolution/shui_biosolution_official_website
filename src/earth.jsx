@@ -6,6 +6,7 @@ import { Layout, Row, Col } from 'antd';
 import SHUIMenu from "./menu.jsx";
 import SHUICard from "./card.jsx";
 import SHUIColorCard from "./colorCard.jsx";
+import SHUIContact from "./contact.jsx";
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 </style>
@@ -97,6 +98,7 @@ ReactDOM.render(<Layout className="layout">
                 </SHUIColorCard>
             </Col>
         </Row>
+        <SHUIContact />
     </Content>
 
 </Layout>, document.getElementById("root"));
