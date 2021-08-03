@@ -29,10 +29,10 @@ function SHUIContact() {
         <Row>
             <Col className="gutter-row" span={12}>
                 <form onSubmit={submitHandler}>
-                    <input value={name} type="text" placeholder="姓名" name="name" onChange={changeHandler} /><br />
-                    <input value={email} type="email" placeholder="邮箱" name="email" onChange={changeHandler} /><br />
-                    <input value={subject} type="text" placeholder="主题" name="subject" onChange={changeHandler} /><br />
-                    <textarea value={message} type="text" placeholder="消息" name="message" onChange={changeHandler} cols="30" rows="10" ></textarea><br />
+                    <input value={name} type="text" placeholder="Name" name="name" onChange={changeHandler} /><br />
+                    <input value={email} type="email" placeholder="Email" name="email" onChange={changeHandler} /><br />
+                    <input value={subject} type="text" placeholder="Subject" name="subject" onChange={changeHandler} /><br />
+                    <textarea value={message} type="text" placeholder="Message" name="message" onChange={changeHandler} cols="30" rows="10" ></textarea><br />
                     <input type="submit" />
                 </form>
                 {StatusMessage(status)}

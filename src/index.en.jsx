@@ -48,11 +48,11 @@ import ReactDOM from "react-dom";
 
 import "/public/stylesheets/index.css";
 import { Layout, Row, Col, Collapse } from 'antd';
-import SHUIMenu from "./menu.jsx";
+import SHUIMenu from "./menu.en.jsx";
 import SHUICarousel from "./carousel.jsx";
 import SHUIWhiteFrame from "./whiteFrame.jsx";
 import SHUICard from "./card.jsx";
-import SHUIContact from "./contact.jsx";
+import SHUIContact from "./contact.en.jsx";
 
 const { Header, Content, Footer } = Layout;
 

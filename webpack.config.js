@@ -79,25 +79,25 @@ module.exports = {
         }),
         new HTMLWebpackPlugin({
             inject: true,
-            chunks: ["index.en"],
+            chunks: ["index_en"],
             filename: "index.en.min.html",
             template: __dirname + "/views/index.en.html"
         }),
         new HTMLWebpackPlugin({
             inject: true,
-            chunks: ["water.en"],
+            chunks: ["water_en"],
             filename: "water.en.min.html",
             template: __dirname + "/views/water.en.html"
         }),
         new HTMLWebpackPlugin({
             inject: true,
-            chunks: ["earth.en"],
+            chunks: ["earth_en"],
             filename: "earth.en.min.html",
             template: __dirname + "/views/earth.en.html"
         }),
         new HTMLWebpackPlugin({
             inject: true,
-            chunks: ["about.en"],
+            chunks: ["about_en"],
             filename: "about.en.min.html",
             template: __dirname + "/views/about.en.html"
         })
