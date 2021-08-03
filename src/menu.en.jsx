@@ -24,10 +24,10 @@ class SHUIMenu extends React.Component {
         <a href="/en"><Menu.Item key="menu-index" className="menu-item-right">
           <p className="menu-text">Home</p>
         </Menu.Item></a>
-        <a href="/water"><Menu.Item key="menu-water" className="menu-item-right">
+        <a href="/water.en"><Menu.Item key="menu-water" className="menu-item-right">
           <p className="menu-text">Wastewater Treatment</p>
         </Menu.Item></a>
-        <a href="/earth"><Menu.Item key="menu-earth" className="menu-item-right">
+        <a href="/earth.en"><Menu.Item key="menu-earth" className="menu-item-right">
           <p className="menu-text">Soil Remediation</p>
         </Menu.Item></a>
         <a href="/about.en"><Menu.Item key="menu-about" className="menu-item-right">

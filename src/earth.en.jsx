@@ -23,9 +23,10 @@ import ReactDOM from "react-dom";
 
 import "/public/stylesheets/earth.css";
 import { Layout, Row, Col } from 'antd';
-import SHUIMenu from "./menu.jsx";
+import SHUIMenu from "./menu.en.jsx";
 import SHUICard from "./card.jsx";
 import SHUIColorCard from "./colorCard.jsx";
+import SHUIContact from "./contact.en.jsx";
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 </style>
@@ -107,6 +108,7 @@ ReactDOM.render(<Layout className="layout">
         </SHUIColorCard>
       </Col>
     </Row>
+    <SHUIContact />
   </Content>
 
 </Layout>, document.getElementById("root"));

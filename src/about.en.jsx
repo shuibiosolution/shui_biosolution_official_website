@@ -4,9 +4,10 @@ import ReactDOM from "react-dom";
 import SHUICard from "./card.jsx";
 import SHUIColorCard from "./colorCard.jsx";
 import SHUIMember from "./member.jsx";
-import SHUIMenu from "./menu.jsx";
+import SHUIMenu from "./menu.en.jsx";
 import SHUISponsor from "./sponsor.jsx";
 import "/public/stylesheets/about.css";
+import SHUIContact from './contact.en.jsx';
 
 const { Header, Content, Footer } = Layout;
 
@@ -127,6 +128,7 @@ ReactDOM.render(<Layout className="layout">
         </Col>
       </Row>
     </SHUIColorCard>
+    <SHUIContact />
   </Content>
 
 </Layout>, document.getElementById("root"));
