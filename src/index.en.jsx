@@ -68,13 +68,13 @@ ReactDOM.render(<Layout className="layout">
   <Content>
     <SHUICarousel />
     <SHUIWhiteFrame>
-      <p className="white-frame1-text">Creating a Pollution-Free World</p>
+      <p className="white-frame1-text-en">Creating a Pollution-Free World</p>
     </SHUIWhiteFrame>
     <Row gutter={[0, 0]}>
       <Col className="gutter-row" span={8}>
         <SHUICard image="/card1.png">
           <div id="card1">
-            <p>Our belief is that<span id="em1">biotechnology</span>holds</p>
+            <p>Our belief is that<span id="em1"> biotechnology </span>holds</p>
             <p>the key to many environmental challenges</p>
             <p>and that nature has great self-healing abilities</p>
           </div>
@@ -101,9 +101,9 @@ ReactDOM.render(<Layout className="layout">
       </Col>
     </Row>
     <SHUIWhiteFrame>
-      <p className="white-frame2-text1">Our Mission</p>
+      <p className="white-frame2-text1-en">Our Mission</p>
       <hr className="white-frame2-hr" />
-      <p className="white-frame2-text2">Protecting Environmental and Human Health</p>
+      <p className="white-frame2-text2-en">Protecting Environmental and Human Health</p>
     </SHUIWhiteFrame>
     <Row gutter={[0, 0]}>
       <Col className="gutter-row" span={12}>
@@ -113,7 +113,7 @@ ReactDOM.render(<Layout className="layout">
             <hr className="short-hr" />
             <p className="small-text">Redefine wastewater treatment</p>
             <p className="small-text">with low-cost industrial microorganisms</p>
-            <a href="/water"> <img src="/learn-more.png" alt="learn more" id="water-learnmore" /> </a>
+            <a href="/water"> <img src="/learn-more-en.png" alt="learn more" id="water-learnmore" /> </a>
           </div>
         </SHUICard>
       </Col>
@@ -124,7 +124,7 @@ ReactDOM.render(<Layout className="layout">
             <hr className="short-hr" />
             <p className="small-text">Engineer soil microorganisms to build a integrated system</p>
             <p className="small-text">for pollution detection, treatment and facility maintenance</p>
-            <a href="/earth"> <img src="/learn-more.png" alt="learn more" id="earth-learnmore" /> </a>
+            <a href="/earth"> <img src="/learn-more-en.png" alt="learn more" id="earth-learnmore" /> </a>
           </div>
         </SHUICard>
       </Col>

@@ -30,6 +30,7 @@ a {
   font-size: 1.7vw;
   letter-spacing: 0.05em;
   color: #FFFFFF;
+  line-height: normal;
 }
 
 .medium-text, .ant-collapse-header{
@@ -95,6 +96,55 @@ a {
   margin: 0;
   padding: 0 0 12px;
 }
+
+/* 
+styling for english whiteframes
+ */
+ .white-frame1-text-en {
+  font-family: 'Long Cang';
+  ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  color: #13B5AB;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  padding: 12px;
+}
+
+.white-frame2-text1-en {
+  font-family: 'Long Cang';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  color: #017F8E;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  padding: 12px 0 0;
+}
+
+
+.white-frame2-text2-en {
+  font-family: 'Long Cang';
+  ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  color: #017F8E;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0 0 12px;
+}
+/* 
+styling for english whiteframes ends
+ */
+
 
 #card1 {
   position: absolute;
