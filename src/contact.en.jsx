@@ -38,9 +38,9 @@ function SHUIContact() {
                 {StatusMessage(status)}
             </Col>
             <Col className="gutter-row" span={12}>
-                <p className="big-text-contact blue-color">Contact Us & Join Us</p>
-                <p className="medium-text-contact blue-color">Email：shuibiosolution@gmail.com</p>
-                <p className="medium-text-contact blue-color">Address: Beijing, China</p>
+                <p className="big-text-contact-en blue-color-en">Contact Us & Join Us</p>
+                <p className="medium-text-contact-en blue-color-en">Email：shuibiosolution@gmail.com</p>
+                <p className="medium-text-contact-en blue-color-en">Address: Beijing, China</p>
                 <a href="https://www.linkedin.com/company/shui-biosolution-technologies-llc/" target="_blank"><img src="linkedin.png" id="linkedin" /></a>
             </Col>
         </Row>

@@ -60,7 +60,7 @@ ReactDOM.render(<Layout className="layout">
             <hr />
             <ul className="stats">
               <li>
-                <img src="/19black.png" alt="19 %" />
+                <img src="/75black.png" alt="19 %" />
                 <p>Over 75% of the farming land area on earth is degraded</p>
               </li>
               <li>
@@ -76,7 +76,7 @@ ReactDOM.render(<Layout className="layout">
     <Row gutter={[0, 0]}>
       <Col className="gutter-row" span={12}>
         <SHUIColorCard style={{ backgroundColor: "#823322" }}>
-          <div id="card12-text">
+          <div id="card12-text-en">
             <p>According to the Food and Agriculture Organization of the United Nations, 95% of food comes directly or indirectly from soil.</p>
             <br />
             <p>Healthy soils are essential for food security and human health. Soil pollution can trigger a chain reaction in which pollutants accumulate in soil and enter herbivores, birds and humans. Meanwhile, soil pollutants can penetrate into groundwater and, in part, become greenhouse gases.</p>
@@ -97,7 +97,7 @@ ReactDOM.render(<Layout className="layout">
       </Col>
       <Col className="gutter-row" span={12}>
         <SHUIColorCard style={{ backgroundColor: "#823322" }}>
-          <div id="card13-text">
+          <div id="card13-text-en">
             <p>Compared with the traditional soil management industry, engineered microorganisms can effectively collect and centralize pollutants, some of which can be used as nutrients to provide sustainable cleaning services.</p>
             <br />
             <p>Microbial technology not only targets the root of soil pollution, but also can effectively reduce the cost by centralizing production. The easy production and degradation of microbial products will be widely adopted as an efficient and sustainable modern soil treatment technology.</p>

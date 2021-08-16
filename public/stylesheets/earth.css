@@ -83,3 +83,23 @@ html, body {
     font-size: 2vw;
     color: #ffd000;
   }
+
+  #card12-text-en {
+    position: absolute;
+    padding: 10% 10%;
+    font-style: normal;
+    font-weight: 20;
+    font-size: 1.7vw;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+  
+  #card13-text-en {
+    position: absolute;
+    padding: 10% 8%;
+    font-style: normal;
+    font-weight: 20;
+    font-size: 1.7vw;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }

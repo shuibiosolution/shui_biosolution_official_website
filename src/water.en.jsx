@@ -62,7 +62,7 @@ ReactDOM.render(<Layout className="layout">
           <div className="card8-item">
             <br /><br /><br />
             <hr />
-            <ul className="stats">
+            <ul className="stats-en">
               <li>
                 <img src="/30red.png" alt="30 %" span={2} />
                 <p>1 in 3 people globally do not have access to safe drinking water</p>
@@ -84,7 +84,7 @@ ReactDOM.render(<Layout className="layout">
     <Row gutter={[0, 0]}>
       <Col className="gutter-row" span={12}>
         <SHUIColorCard style={{ backgroundColor: "#112137" }}>
-          <div id="card9-text">
+          <div id="card9-text-en">
             <p>According to the United Nations, 80% of the world's wastewater is discharged  into rivers and oceans without effective treatment.</p>
             <br />
             <p>The ever-developing human industries and societies impose greater demands on wastewater treatment, which the current treatment system cannot suffice.</p>
@@ -105,7 +105,7 @@ ReactDOM.render(<Layout className="layout">
       </Col>
       <Col className="gutter-row" span={12}>
         <SHUIColorCard style={{ backgroundColor: "#112137" }}>
-          <div id="card10-text">
+          <div id="card10-text-en">
             <p>Unlike the traditional wastewater treatment industry, microorganisms can be produced at large-scale and low-cost. Its industrialized design concept also allows for highly customizable purification services for different water bodies.</p>
             <br />
             <p>We produce biofilms and bacteria directly from microbial cells, which shortens the supply chain, reduces the cost of production and transportation, and eliminates safety risks. The easy production and degradability of microbial products will be widely adopted as an efficient and sustainable modern water treatment technology.</p>

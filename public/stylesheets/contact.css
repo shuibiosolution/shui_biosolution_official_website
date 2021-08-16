@@ -24,6 +24,36 @@ html, body {
     color: #03658C;
 }
 
+.big-text-contact-en {
+    font-weight: 700;
+    font-size: 4vw;
+    letter-spacing: 0;
+    padding: 1em 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-text-contact-en {
+    font-weight: 100;
+    font-size: 1.7vw;
+    letter-spacing: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.medium-text-contact-en {
+    font-weight: 300;
+    font-size: 2vw;
+    letter-spacing: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue-color-en {
+    color: #03658C;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .black-color {
     color: #000;
 }

@@ -25,6 +25,14 @@ a {
   color: #FFFFFF;
 }
 
+.big-text-en {
+  font-weight: 900;
+  font-size: 2.5vw;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
 .small-text {
   font-weight: 100;
   font-size: 1.7vw;
@@ -33,10 +41,28 @@ a {
   line-height: normal;
 }
 
+.small-text-en {
+  font-weight: 100;
+  font-size: 1.7vw;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  line-height: normal;
+}
+
 .medium-text, .ant-collapse-header{
   font-weight: 500;
   font-size: 2vw;
   letter-spacing: 0.05em;
+  color: #FFFFFF !important;
+  line-height: 0.9em !important;
+}
+
+.medium-text-en, .ant-collapse-header-en{
+  font-weight: 500;
+  font-size: 2vw;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
   color: #FFFFFF !important;
   line-height: 0.9em !important;
 }
@@ -106,7 +132,7 @@ styling for english whiteframes
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #13B5AB;
   text-align: center;
   vertical-align: middle;
@@ -119,7 +145,7 @@ styling for english whiteframes
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #017F8E;
   text-align: center;
   vertical-align: middle;
@@ -134,7 +160,7 @@ styling for english whiteframes
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #017F8E;
   text-align: center;
   vertical-align: middle;
