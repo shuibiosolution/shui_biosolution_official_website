@@ -4,6 +4,8 @@ const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const fs = require('fs')
 
+// The line below contains the password to MongoDB Atlas and is therefore unsafe.
+// Maintainers of this website should consider removing it to avoid security issues.
 mongoose.connect("mongodb+srv://shuibiosolution:shuibiosolution@cluster0.b04va.mongodb.net/messageDB?retryWrites=true&w=majority", { useNewUrlParser: true });
 
 const messageSchema = new mongoose.Schema({
