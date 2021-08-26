@@ -145,12 +145,33 @@ ReactDOM.render(<Layout className="layout">
       <div id="card7" letter-spacin='0' >
         <p className="big-text-en">FAQ</p> <br />
         <Collapse defaultActiveKey={['1']} ghost accordion="true">
-          <Panel header="What is the current status of the company?" key="1">
-            <p className="small-text-en">With technical support from Bluepha Co., Ltd. and Peking University School of Life Science, SHUI has developed an MVP that effectively tackles heavy metal processing in industrial wastewater filtration. SHUI received an offer from BEWG: Beijing Enterprises Water Group Limited (HKSE: 00371) to test our product in industrial settings and establish corporate partnerships with its subsidiary factories. SHUI raised $15,000 from TechX Academy, $5000 from Cornell Innovation Fund, and $1000 from Penn Weiss Tech Fund and is currently negotiating dilutive funding of $300,000 with MiraclePlus (former YC China). SHUI is currently applying for a patent for its core technology, and the expected first revenue stream will come in mid-May 2021.</p>
+          <Panel header="The company's history and status quo?" key="1">
+            <p className="small-text-en">The company was incorporated in March 2020 by three,
+              and has since grew into to a team of thirteen. The company's core team has won the 2019
+              and 2020 International Genetic Engineering Competition (iGEM) global gold awards,
+              and participated in the official technology innovation incubator as the only team
+              from mainland China in 2020. The company is based in Zhongguancun Life Science Park,
+              Beijing and Mennen Hall, Cornell University. The company developed a set of industrial
+              wastewater filtration system at the MVP stage and completed the laboratory stage verification.
+              It was invited by the accused water group (HKSE code: 00371) to conduct industrialization
+              verification in its background industrial wastewater treatment plant. And it has in-depth
+              cooperation with the domestic synthetic biology leading start-up company Kyanite Microorganisms,
+              a member of the Ouyang Qi Laboratory of the Peking University Foreword Interdisciplinary Research
+              Institute, the largest domestic science and technology youth community X Academy,
+              and the laboratory of Professor Ilana lauren brito at Cornell University. In the fall of 2021,
+              the core of our company currently lies in the further optimization of water treatment products
+              and the verification of small-scale fermentation, as well as the MVP stage research and development
+              of soil remediation products. Currently applying for Chinese and international core patents of the
+              technology.</p>
 
           </Panel>
-          <Panel header="Do SHUI's products embrace biosafety and environmental safety?" key="2">
-            <p className="small-text-en">Absolutely YES, and this part is one of our top strengths. SHUI designed a bio-switch to ensure that functional bacteria will only activate their functionality under prespecified industrial conditions, which ensures biosafety and prevents information leakage. Moreover, SHUI's bio-films are highly biodegradable. At the end of the lifecycle, they will undergo a high temperature and ultraviolet process to make sure the end remnants will possess no negative impact on the environment.</p>
+          <Panel header="The company's cash flow, profitability, and financing?" key="2">
+            <p className="small-text-en">The company participated in the X Fusor incubation project
+              of the original TechX Academy, and received financial support from the early stage of the
+              incubator for experiments, company operations, and commercial development. In addition,
+              the founding members of the company have applied for thousands of dollars in student project
+              support funds from Cornell University Entrepreneur Association and Innovation Fund,
+              University of Pennsylvania Weiss Tech House, Wharton School of Business, etc.</p>
           </Panel>
           <Panel header="What market and customer segments does SHUI mainly target?" key="3">
             <p className="small-text-en">SHUI targets the industrial wastewater treatment market in China, which sizes up to 14.4 billion USD and takes up 26.2% of the global market share. 25.2 billion tons of wastewater is processed in 2019 by 72592 units of treatment facilities. SHUI will mainly serve two types of clients: industrial parks and independent factories. For industrial parks, SHUI replaces multi-step filtration systems with an integrated multi-layer bio-film as one compatible step. For independent factories, SHUI manufactures highly customized biofilms to filter targeted heavy metal pollutants.</p>
