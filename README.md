@@ -17,6 +17,7 @@
 5. Alternatively, to effectuate only changes associated with React.js, run `npm run build`, which triggers the webpack bundling. To initiate the Express.js server, run `npm run start`. See scripts in package.json for more.
 6. The default http localhost port is 3000. The server automatically switches to `process.env.PORT` when deployed.
 7. Submit a commit, then push.
-8. Make sure you have [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
-9. Run `git push heroku HEAD:master` to deploy the main branch. If asked for username and password, contact site administrator.
-10. Visit MongoDB Atlas service for incoming messages. Login using the credentials provided by the site administrator.
+8. Ideally, any push to this Github repository results in an automatic deployment on Heroku. Alternatively, try the following.
+9. Make sure you have [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
+10. Run `git push heroku HEAD:master` to deploy the main branch. If asked for username and password, contact site administrator.
+11. Visit MongoDB Atlas service for incoming messages. Login using the credentials provided by the site administrator.
